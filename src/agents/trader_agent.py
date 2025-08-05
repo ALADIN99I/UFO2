@@ -60,6 +60,7 @@ class TraderAgent(Agent):
             "`{'action': 'new_trade'/'adjust_trade'/'close_trade', 'trade_id': <optional>, 'currency_pair': 'EURUSD', 'direction': 'BUY/SELL', 'entry_price': 1.0800, 'lot_size': 0.40}`.\n\n"
             f"You MUST use only the following currency pairs for new trades: {self.symbols}\n\n"
             "IMPORTANT: NO individual stop losses or take profits - UFO methodology uses PORTFOLIO-LEVEL risk management only!\n\n"
+            "IMPORTANT: Do not use risky strategies like adding to losing positions (reinforcement) or reversing trades. Focus on quality trades with a high probability of success.\n\n"
             f"Account Balance: ${balance} - Risk tolerance: 0.8-1.2% per trade, max 4.5% total portfolio risk.\n\n"
             f"Research Consensus:\n{research_consensus}\n\n"
             f"Current Open Positions ({position_count} total):\n{open_positions_str}\n\n"
