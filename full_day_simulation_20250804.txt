@@ -1,0 +1,2582 @@
+UFO FOREX AGENT v3 - FULL DAY SIMULATION REPORT
+============================================================
+Date: Monday, August 04, 2025
+Generated: 2025-08-05 16:17:43
+Cycle Period: 30 minutes
+Total Cycles: 37
+
+[15:55:00] ✅ MT5 persistent connection established
+[15:55:00] ✅ Dynamic Reinforcement Engine enabled
+[15:55:00] Full-day simulation components initialized successfully
+[15:55:00] 🚀 Starting FULL DAY UFO Simulation for Monday, August 04, 2025
+[15:55:00] 📅 Trading Hours: 0:00 GMT to 18:00 GMT
+[15:55:00] ⏰ Cycle Frequency: Every 30 minutes
+[15:55:00] 📊 Continuous Monitoring: Position updates every 5 minutes
+[15:55:00] 📊 Total Cycles Planned: 36
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 1 - 00:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 00:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 2 - 00:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 00:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 3 - 01:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 01:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 4 - 01:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 01:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 5 - 02:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 02:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 6 - 02:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 02:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 7 - 03:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 03:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 8 - 03:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 03:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 9 - 04:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 04:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 10 - 04:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 04:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 11 - 05:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 05:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 12 - 05:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 05:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 13 - 06:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 06:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 14 - 06:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 06:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 15 - 07:00 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 07:00 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 16 - 07:30 GMT
+[15:55:00] ============================================================
+[15:55:00] ⏰ Outside trading hours at 07:30 GMT - Skipping cycle
+[15:55:00] 
+============================================================
+[15:55:00] CYCLE 17 - 08:00 GMT
+[15:55:00] ============================================================
+[15:55:00] 📊 PHASE 1: Data Collection
+[15:55:03] ✅ Collected data for 27 symbols
+[15:55:03] 🛸 PHASE 2: UFO Analysis
+[15:55:03] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[15:55:03] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[15:55:03] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[15:55:03] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[15:55:03] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[15:55:03] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[15:55:03] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[15:55:03] ✅ Enhanced UFO analysis completed for 5 timeframes
+[15:55:03] 📅 PHASE 3: Economic Calendar
+[15:55:04] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[15:55:04]   📅 06:30 GMT: CHF CPI m/m
+[15:55:04] ✅ Retrieved 9 economic events for simulation date
+[15:55:04] 🔍 PHASE 4: Market Research
+[15:55:31] ✅ Market research completed
+[15:55:31] 💼 PHASE 5: UFO Portfolio Management
+[15:55:31] ✅ Portfolio assessed: 0 open positions
+[15:55:31] 🎯 PHASE 6: Trading Decisions
+[15:55:47] ✅ Trading decisions generated
+[15:55:47] ⚖️ PHASE 7: Risk Assessment
+[15:55:59] ✅ Risk assessment: OK
+[15:55:59] 💰 PHASE 8: Fund Manager Authorization
+[15:56:04] ✅ Fund Manager decision: APPROVED
+[15:56:04] ⚡ PHASE 9: Trade Execution
+[15:56:04] ✅ UFO Engine approved: Building diversification: 0/4 minimum positions
+[15:56:04] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:04] 🔹 Trade executed: GBPJPY-ECN BUY 0.1 lots @ 196.10677
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] 🔹 Trade executed: AUDCHF-ECN BUY 0.1 lots @ 0.52189
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] 🔹 Trade executed: GBPCHF-ECN BUY 0.1 lots @ 1.06945
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] 🔹 Trade executed: EURUSD-ECN SELL 0.1 lots @ 1.15833
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 🔹 Trade executed: AUDUSD-ECN BUY 0.1 lots @ 0.64844
+[15:56:05] 📋 PHASE 10: Cycle Summary
+[15:56:05] 📊 Cycle 17 Summary (08:00 GMT):
+[15:56:05]    Trades Executed: 5
+[15:56:05]    Total Trades Today: 5
+[15:56:05]    Open Positions: 5/18
+[15:56:05]    Closed Trades: 0
+[15:56:05]    Realized P&L: $+0.00
+[15:56:05]    Unrealized P&L: $+0.00
+[15:56:05]    Portfolio Value: $10,000.00 (Total P&L: $+0.00)
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:05:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:10:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:15:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:20:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:25:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:56:05] 📊 Historical data collected for 5 symbols at 2025-08-04 08:30:00
+[15:56:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:56:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:56:05] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:56:05] ✅ Market data cached for 5 symbols
+[15:56:05] 
+============================================================
+[15:56:05] CYCLE 18 - 08:30 GMT
+[15:56:05] ============================================================
+[15:56:05] 📊 PHASE 1: Data Collection
+[15:56:06] ✅ Collected data for 27 symbols
+[15:56:06] 🛸 PHASE 2: UFO Analysis
+[15:56:07] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[15:56:07] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[15:56:07] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[15:56:07] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[15:56:07] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[15:56:07] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[15:56:07] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[15:56:07] ✅ Enhanced UFO analysis completed for 5 timeframes
+[15:56:07] 📅 PHASE 3: Economic Calendar
+[15:56:07] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[15:56:07]   📅 06:30 GMT: CHF CPI m/m
+[15:56:07] ✅ Retrieved 9 economic events for simulation date
+[15:56:07] 🔍 PHASE 4: Market Research
+[15:56:30] ✅ Market research completed
+[15:56:30] 💼 PHASE 5: UFO Portfolio Management
+[15:56:30] ✅ Portfolio assessed: 5 open positions
+[15:56:30] 🎯 PHASE 6: Trading Decisions
+[15:57:32] ✅ Trading decisions generated
+[15:57:32] ⚖️ PHASE 7: Risk Assessment
+[15:57:43] ✅ Risk assessment: OK
+[15:57:43] 💰 PHASE 8: Fund Manager Authorization
+[15:57:53] ✅ Fund Manager decision: APPROVED
+[15:57:53] ⚡ PHASE 9: Trade Execution
+[15:57:53] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] 🔹 Trade executed: USDCHF-ECN BUY 0.4 lots @ 0.80487
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] 🔹 Trade executed: AUDCAD-ECN BUY 0.4 lots @ 0.89300
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] 🔹 Trade executed: EURCAD-ECN BUY 0.4 lots @ 1.59527
+[15:57:53] 📋 PHASE 10: Cycle Summary
+[15:57:53] 📊 Cycle 18 Summary (08:30 GMT):
+[15:57:53]    Trades Executed: 3
+[15:57:53]    Total Trades Today: 8
+[15:57:53]    Open Positions: 8/18
+[15:57:53]    Closed Trades: 0
+[15:57:53]    Realized P&L: $+0.00
+[15:57:53]    Unrealized P&L: $-2.46
+[15:57:53]    Portfolio Value: $9,997.54 (Total P&L: $-2.46)
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 08:35:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 08:40:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 08:45:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 08:50:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 08:55:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:57:53] 📊 Historical data collected for 8 symbols at 2025-08-04 09:00:00
+[15:57:53] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURCAD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:57:53] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:57:53] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:57:53] ✅ Market data cached for 8 symbols
+[15:57:53] 
+============================================================
+[15:57:53] CYCLE 19 - 09:00 GMT
+[15:57:53] ============================================================
+[15:57:53] 📊 PHASE 1: Data Collection
+[15:57:54] ✅ Collected data for 27 symbols
+[15:57:54] 🛸 PHASE 2: UFO Analysis
+[15:57:54] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[15:57:54] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[15:57:54] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[15:57:54] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[15:57:54] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[15:57:54] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[15:57:54] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[15:57:54] ✅ Enhanced UFO analysis completed for 5 timeframes
+[15:57:54] 📅 PHASE 3: Economic Calendar
+[15:57:54] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[15:57:54]   📅 06:30 GMT: CHF CPI m/m
+[15:57:54] ✅ Retrieved 9 economic events for simulation date
+[15:57:54] 🔍 PHASE 4: Market Research
+[15:58:14] ✅ Market research completed
+[15:58:14] 💼 PHASE 5: UFO Portfolio Management
+[15:58:14] ✅ Portfolio assessed: 8 open positions
+[15:58:14] 🎯 PHASE 6: Trading Decisions
+[15:58:27] ✅ Trading decisions generated
+[15:58:27] ⚖️ PHASE 7: Risk Assessment
+[15:58:41] ✅ Risk assessment: OK
+[15:58:41] 💰 PHASE 8: Fund Manager Authorization
+[15:58:49] ✅ Fund Manager decision: APPROVED
+[15:58:49] ⚡ PHASE 9: Trade Execution
+[15:58:49] ✅ UFO Engine approved: Additional diversification possible: 8/18 max positions
+[15:58:49] 🔹 Trade closed by LLM: AUDCAD-ECN P&L: $-1.28
+[15:58:49] 🔹 Trade closed by LLM: EURCAD-ECN P&L: $-3.12
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 🔹 Trade executed: AUDUSD-ECN BUY 0.1 lots @ 0.64821
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] 🔹 Trade executed: GBPCHF-ECN BUY 0.1 lots @ 1.06909
+[15:58:49] 📋 PHASE 10: Cycle Summary
+[15:58:49] 📊 Cycle 19 Summary (09:00 GMT):
+[15:58:49]    Trades Executed: 4
+[15:58:49]    Total Trades Today: 10
+[15:58:49]    Open Positions: 8/18
+[15:58:49]    Closed Trades: 2
+[15:58:49]    Realized P&L: $-4.40
+[15:58:49]    Unrealized P&L: $+0.96
+[15:58:49]    Portfolio Value: $9,996.56 (Total P&L: $-3.44)
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:05:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:10:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:15:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:20:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:25:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:58:49] 📊 Historical data collected for 6 symbols at 2025-08-04 09:30:00
+[15:58:49] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:58:49] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:58:49] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:58:49] ✅ Market data cached for 6 symbols
+[15:58:49] 
+============================================================
+[15:58:49] CYCLE 20 - 09:30 GMT
+[15:58:49] ============================================================
+[15:58:49] 📊 PHASE 1: Data Collection
+[15:58:49] ✅ Collected data for 27 symbols
+[15:58:49] 🛸 PHASE 2: UFO Analysis
+[15:58:50] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[15:58:50] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[15:58:50] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[15:58:50] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[15:58:50] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[15:58:50] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[15:58:50] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[15:58:50] ✅ Enhanced UFO analysis completed for 5 timeframes
+[15:58:50] 📅 PHASE 3: Economic Calendar
+[15:58:50] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[15:58:50]   📅 06:30 GMT: CHF CPI m/m
+[15:58:50] ✅ Retrieved 9 economic events for simulation date
+[15:58:50] 🔍 PHASE 4: Market Research
+[15:59:12] ✅ Market research completed
+[15:59:12] 💼 PHASE 5: UFO Portfolio Management
+[15:59:12] ✅ Portfolio assessed: 8 open positions
+[15:59:12] 🎯 PHASE 6: Trading Decisions
+[15:59:30] ✅ Trading decisions generated
+[15:59:30] ⚖️ PHASE 7: Risk Assessment
+[15:59:42] ✅ Risk assessment: OK
+[15:59:42] 💰 PHASE 8: Fund Manager Authorization
+[15:59:52] ✅ Fund Manager decision: APPROVED
+[15:59:52] ⚡ PHASE 9: Trade Execution
+[15:59:52] ✅ UFO Engine approved: Additional diversification possible: 8/18 max positions
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] 🔹 Trade executed: EURCHF-ECN SELL 0.1 lots @ 0.93224
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] 🔹 Trade executed: CADJPY-ECN SELL 0.1 lots @ 107.30400
+[15:59:52] 📋 PHASE 10: Cycle Summary
+[15:59:52] 📊 Cycle 20 Summary (09:30 GMT):
+[15:59:52]    Trades Executed: 2
+[15:59:52]    Total Trades Today: 12
+[15:59:52]    Open Positions: 10/18
+[15:59:52]    Closed Trades: 2
+[15:59:52]    Realized P&L: $-4.40
+[15:59:52]    Unrealized P&L: $+17.50
+[15:59:52]    Portfolio Value: $10,013.10 (Total P&L: $+13.10)
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 09:35:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 09:40:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 09:45:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 09:50:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 09:55:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[15:59:52] 📊 Historical data collected for 8 symbols at 2025-08-04 10:00:00
+[15:59:52] ✅ Using REAL data from MT5 for CADJPY-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for USDCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[15:59:52] ✅ Using REAL data from MT5 for EURUSD-ECN
+[15:59:52] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[15:59:52] ✅ Market data cached for 8 symbols
+[15:59:52] 
+============================================================
+[15:59:52] CYCLE 21 - 10:00 GMT
+[15:59:52] ============================================================
+[15:59:52] 📊 PHASE 1: Data Collection
+[15:59:52] ✅ Collected data for 27 symbols
+[15:59:52] 🛸 PHASE 2: UFO Analysis
+[15:59:53] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[15:59:53] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[15:59:53] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[15:59:53] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[15:59:53] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[15:59:53] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[15:59:53] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[15:59:53] ✅ Enhanced UFO analysis completed for 5 timeframes
+[15:59:53] 📅 PHASE 3: Economic Calendar
+[15:59:53] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[15:59:53]   📅 06:30 GMT: CHF CPI m/m
+[15:59:53] ✅ Retrieved 9 economic events for simulation date
+[15:59:53] 🔍 PHASE 4: Market Research
+[16:00:17] ✅ Market research completed
+[16:00:17] 💼 PHASE 5: UFO Portfolio Management
+[16:00:17] ✅ Portfolio assessed: 10 open positions
+[16:00:17] 🎯 PHASE 6: Trading Decisions
+[16:00:35] ✅ Trading decisions generated
+[16:00:35] ⚖️ PHASE 7: Risk Assessment
+[16:00:48] ✅ Risk assessment: OK
+[16:00:48] 💰 PHASE 8: Fund Manager Authorization
+[16:00:56] ✅ Fund Manager decision: APPROVED
+[16:00:56] ⚡ PHASE 9: Trade Execution
+[16:00:56] ✅ UFO Engine approved: Additional diversification possible: 10/18 max positions
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] 🔹 Trade executed: GBPUSD-ECN BUY 0.1 lots @ 1.32751
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] 🔹 Trade executed: AUDCAD-ECN BUY 0.1 lots @ 0.89270
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] 🔹 Trade executed: EURJPY-ECN SELL 0.1 lots @ 171.01000
+[16:00:56] 📋 PHASE 10: Cycle Summary
+[16:00:56] 📊 Cycle 21 Summary (10:00 GMT):
+[16:00:56]    Trades Executed: 3
+[16:00:56]    Total Trades Today: 15
+[16:00:56]    Open Positions: 13/18
+[16:00:56]    Closed Trades: 2
+[16:00:56]    Realized P&L: $-4.40
+[16:00:56]    Unrealized P&L: $+25.87
+[16:00:56]    Portfolio Value: $10,021.47 (Total P&L: $+21.47)
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] 📊 Historical data collected for 11 symbols at 2025-08-04 10:05:00
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Market data cached for 11 symbols
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] 📊 Historical data collected for 11 symbols at 2025-08-04 10:10:00
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Market data cached for 11 symbols
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] 📊 Historical data collected for 11 symbols at 2025-08-04 10:15:00
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Market data cached for 11 symbols
+[16:00:56] 🎯 Dynamic Reinforcement: 1 market events detected
+[16:00:56]   ⚡ price_movement: GBPCHF-ECN - Reinforcement calculated
+[16:00:56]     📊 Reinforcement: 0.04 lots
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56]     ✅ Dynamic reinforcement executed: GBPCHF-ECN BUY 0.04 lots @ 1.07122
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:00:56] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:00:56] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:00:56] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:00:56] 💰 Portfolio update: $10,035.25 ($+11.83)
+[16:00:56]   📊 GBPJPY-ECN: -0.09300 → P&L: $-4.68
+[16:00:56]   📊 GBPCHF-ECN: +0.00057 → P&L: $+2.29
+[16:00:56]   📊 GBPCHF-ECN: +0.00057 → P&L: $+2.65
+[16:00:56] 
+============================================================
+[16:00:56] CYCLE 22 - 10:30 GMT
+[16:00:56] ============================================================
+[16:00:56] 📊 PHASE 1: Data Collection
+[16:00:57] ✅ Collected data for 27 symbols
+[16:00:57] 🛸 PHASE 2: UFO Analysis
+[16:00:57] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:00:57] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:00:57] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:00:57] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:00:57] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:00:57] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:00:57] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[16:00:57] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:00:57] 📅 PHASE 3: Economic Calendar
+[16:00:57] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:00:57]   📅 06:30 GMT: CHF CPI m/m
+[16:00:57] ✅ Retrieved 9 economic events for simulation date
+[16:00:57] 🔍 PHASE 4: Market Research
+[16:01:20] ✅ Market research completed
+[16:01:20] 💼 PHASE 5: UFO Portfolio Management
+[16:01:20] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:01:20] 📊 Historical data collected for 11 symbols at 2025-08-04 10:30:00
+[16:01:20] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:01:20] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:01:20] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:01:20] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:01:20] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:01:20] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:01:20] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:01:20] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:01:20] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:01:20] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:01:20] ✅ Market data cached for 11 symbols
+[16:01:20] ✅ Portfolio assessed: 14 open positions
+[16:01:20] 🎯 PHASE 6: Trading Decisions
+[16:01:39] ✅ Trading decisions generated
+[16:01:39] ⚖️ PHASE 7: Risk Assessment
+[16:01:52] ✅ Risk assessment: OK
+[16:01:52] 💰 PHASE 8: Fund Manager Authorization
+[16:02:00] ✅ Fund Manager decision: APPROVED
+[16:02:00] ⚡ PHASE 9: Trade Execution
+[16:02:00] ✅ UFO Engine approved: Additional diversification possible: 14/18 max positions
+[16:02:00] 🔹 Trade closed by LLM: GBPJPY-ECN P&L: $-4.68
+[16:02:00] 🔹 Trade closed by LLM: AUDUSD-ECN P&L: $-0.50
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] 🔹 Trade executed: USDJPY-ECN BUY 0.1 lots @ 147.63247
+[16:02:00] 📋 PHASE 10: Cycle Summary
+[16:02:00] 📊 Cycle 22 Summary (10:30 GMT):
+[16:02:00]    Trades Executed: 3
+[16:02:00]    Total Trades Today: 17
+[16:02:00]    Open Positions: 13/18
+[16:02:00]    Closed Trades: 4
+[16:02:00]    Realized P&L: $-9.58
+[16:02:00]    Unrealized P&L: $+44.82
+[16:02:00]    Portfolio Value: $10,035.25 (Total P&L: $+35.25)
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:00] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:00] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:00] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:00] 💰 Portfolio update: $10,022.54 ($-14.89)
+[16:02:00]   📊 GBPCHF-ECN: -0.00071 → P&L: $+2.75
+[16:02:00]   📊 GBPCHF-ECN: -0.00071 → P&L: $+3.11
+[16:02:00]   📊 CADJPY-ECN: +0.08500 → P&L: $+0.60
+[16:02:00] 
+============================================================
+[16:02:00] CYCLE 23 - 11:00 GMT
+[16:02:00] ============================================================
+[16:02:00] 📊 PHASE 1: Data Collection
+[16:02:00] ✅ Collected data for 27 symbols
+[16:02:00] 🛸 PHASE 2: UFO Analysis
+[16:02:01] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:02:01] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:02:01] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:02:01] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:02:01] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:02:01] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:02:01] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:02:01] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:02:01] 📅 PHASE 3: Economic Calendar
+[16:02:01] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:02:01]   📅 06:30 GMT: CHF CPI m/m
+[16:02:01] ✅ Retrieved 9 economic events for simulation date
+[16:02:01] 🔍 PHASE 4: Market Research
+[16:02:27] ✅ Market research completed
+[16:02:27] 💼 PHASE 5: UFO Portfolio Management
+[16:02:27] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:27] 📊 Historical data collected for 11 symbols at 2025-08-04 11:00:00
+[16:02:27] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:27] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:27] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:27] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:27] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:27] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:27] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:27] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:27] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:27] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:27] ✅ Market data cached for 11 symbols
+[16:02:27] ✅ Portfolio assessed: 13 open positions
+[16:02:27] 🎯 PHASE 6: Trading Decisions
+[16:02:39] ✅ Trading decisions generated
+[16:02:39] ⚖️ PHASE 7: Risk Assessment
+[16:02:50] ✅ Risk assessment: OK
+[16:02:50] 💰 PHASE 8: Fund Manager Authorization
+[16:02:59] ✅ Fund Manager decision: APPROVED
+[16:02:59] ⚡ PHASE 9: Trade Execution
+[16:02:59] ✅ UFO Engine approved: Additional diversification possible: 13/18 max positions
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] 🔹 Trade executed: AUDJPY-ECN BUY 0.1 lots @ 95.76884
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] 🔹 Trade executed: AUDNZD-ECN BUY 0.1 lots @ 1.09606
+[16:02:59] 📋 PHASE 10: Cycle Summary
+[16:02:59] 📊 Cycle 23 Summary (11:00 GMT):
+[16:02:59]    Trades Executed: 2
+[16:02:59]    Total Trades Today: 19
+[16:02:59]    Open Positions: 15/18
+[16:02:59]    Closed Trades: 4
+[16:02:59]    Realized P&L: $-9.58
+[16:02:59]    Unrealized P&L: $+32.12
+[16:02:59]    Portfolio Value: $10,022.54 (Total P&L: $+22.54)
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] 💰 Portfolio update: $10,033.20 ($+10.66)
+[16:02:59]   📊 EURUSD-ECN: -0.00064 → P&L: $+1.71
+[16:02:59]   📊 CADJPY-ECN: +0.04600 → P&L: $-4.00
+[16:02:59]   📊 EURJPY-ECN: +0.01500 → P&L: $+0.50
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:02:59] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:02:59] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:02:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:02:59] 
+============================================================
+[16:02:59] CYCLE 24 - 11:30 GMT
+[16:02:59] ============================================================
+[16:02:59] 📊 PHASE 1: Data Collection
+[16:02:59] ✅ Collected data for 27 symbols
+[16:02:59] 🛸 PHASE 2: UFO Analysis
+[16:03:00] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:03:00] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:03:00] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:03:00] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:03:00] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:03:00] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:03:00] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:03:00] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:03:00] 📅 PHASE 3: Economic Calendar
+[16:03:00] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:03:00]   📅 06:30 GMT: CHF CPI m/m
+[16:03:00] ✅ Retrieved 9 economic events for simulation date
+[16:03:00] 🔍 PHASE 4: Market Research
+[16:03:25] ✅ Market research completed
+[16:03:25] 💼 PHASE 5: UFO Portfolio Management
+[16:03:25] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:03:25] 📊 Historical data collected for 13 symbols at 2025-08-04 11:30:00
+[16:03:25] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:03:25] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:03:25] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:03:25] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:03:25] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:03:25] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:03:25] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:03:25] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:03:25] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:03:25] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:03:25] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:03:25] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:03:25] ✅ Market data cached for 13 symbols
+[16:03:25] ✅ Portfolio assessed: 15 open positions
+[16:03:25] 🎯 PHASE 6: Trading Decisions
+[16:03:40] ✅ Trading decisions generated
+[16:03:40] ⚖️ PHASE 7: Risk Assessment
+[16:03:54] ✅ Risk assessment: OK
+[16:03:54] 💰 PHASE 8: Fund Manager Authorization
+[16:04:05] ✅ Fund Manager decision: APPROVED
+[16:04:05] ⚡ PHASE 9: Trade Execution
+[16:04:05] ✅ UFO Engine approved: Additional diversification possible: 15/18 max positions
+[16:04:05] 📋 PHASE 10: Cycle Summary
+[16:04:05] 📊 Cycle 24 Summary (11:30 GMT):
+[16:04:05]    Trades Executed: 0
+[16:04:05]    Total Trades Today: 19
+[16:04:05]    Open Positions: 15/18
+[16:04:05]    Closed Trades: 4
+[16:04:05]    Realized P&L: $-9.58
+[16:04:05]    Unrealized P&L: $+52.30
+[16:04:05]    Portfolio Value: $10,042.73 (Total P&L: $+42.73)
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] 🎯 Marking USDJPY-ECN for closure: trailing stop (P&L: $24.35)
+[16:04:05] 📉 Position closed: USDJPY-ECN P&L: $24.35
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:05] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:05] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:05] 
+============================================================
+[16:04:05] CYCLE 25 - 12:00 GMT
+[16:04:05] ============================================================
+[16:04:05] 📊 PHASE 1: Data Collection
+[16:04:05] ✅ Collected data for 27 symbols
+[16:04:05] 🛸 PHASE 2: UFO Analysis
+[16:04:06] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:04:06] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:04:06] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:04:06] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:04:06] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:04:06] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:04:06] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:04:06] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:04:06] 📅 PHASE 3: Economic Calendar
+[16:04:06] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:04:06]   📅 06:30 GMT: CHF CPI m/m
+[16:04:06] ✅ Retrieved 9 economic events for simulation date
+[16:04:06] 🔍 PHASE 4: Market Research
+[16:04:27] ✅ Market research completed
+[16:04:27] 💼 PHASE 5: UFO Portfolio Management
+[16:04:27] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:04:27] 📊 Historical data collected for 12 symbols at 2025-08-04 12:00:00
+[16:04:27] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:04:27] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:04:27] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:04:27] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:04:27] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:04:27] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:04:27] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:04:27] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:04:27] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:04:27] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:04:27] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:04:27] ✅ Market data cached for 12 symbols
+[16:04:27] ✅ Portfolio assessed: 14 open positions
+[16:04:27] 🎯 PHASE 6: Trading Decisions
+[16:04:46] ✅ Trading decisions generated
+[16:04:46] ⚖️ PHASE 7: Risk Assessment
+[16:05:04] ✅ Risk assessment: OK
+[16:05:04] 💰 PHASE 8: Fund Manager Authorization
+[16:05:09] ✅ Fund Manager decision: APPROVED
+[16:05:09] ⚡ PHASE 9: Trade Execution
+[16:05:09] ✅ UFO Engine approved: Additional diversification possible: 14/18 max positions
+[16:05:09] 🔹 Trade closed by LLM: GBPCHF-ECN P&L: $3.96
+[16:05:09] 🔹 Trade closed by LLM: GBPUSD-ECN P&L: $-0.21
+[16:05:09] 🔹 Trade closed by LLM: AUDCAD-ECN P&L: $-0.50
+[16:05:09] 🔹 Trade closed by LLM: CADJPY-ECN P&L: $-3.10
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] 🔹 Trade executed: EURCAD-ECN SELL 0.1 lots @ 1.59335
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] 🔹 Trade executed: NZDJPY-ECN BUY 0.1 lots @ 87.35752
+[16:05:09] 📋 PHASE 10: Cycle Summary
+[16:05:09] 📊 Cycle 25 Summary (12:00 GMT):
+[16:05:09]    Trades Executed: 6
+[16:05:09]    Total Trades Today: 21
+[16:05:09]    Open Positions: 12/18
+[16:05:09]    Closed Trades: 9
+[16:05:09]    Realized P&L: $+14.93
+[16:05:09]    Unrealized P&L: $+22.37
+[16:05:09]    Portfolio Value: $10,037.30 (Total P&L: $+37.30)
+[16:05:09] ✅ Using REAL data from MT5 for AUDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDUSD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] 🎯 Marking AUDCHF-ECN for closure: time-based exit (P&L: $1.44)
+[16:05:09] 🎯 Marking EURUSD-ECN for closure: time-based exit (P&L: $2.53)
+[16:05:09] 🎯 Marking AUDUSD-ECN for closure: time-based exit (P&L: $-1.23)
+[16:05:09] 📉 Position closed: AUDUSD-ECN P&L: $-1.23
+[16:05:09] 📉 Position closed: EURUSD-ECN P&L: $2.53
+[16:05:09] 📉 Position closed: AUDCHF-ECN P&L: $1.44
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:09] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:09] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:09] 
+============================================================
+[16:05:09] CYCLE 26 - 12:30 GMT
+[16:05:09] ============================================================
+[16:05:09] 📊 PHASE 1: Data Collection
+[16:05:10] ✅ Collected data for 27 symbols
+[16:05:10] 🛸 PHASE 2: UFO Analysis
+[16:05:10] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:05:10] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:05:10] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:05:10] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:05:10] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:05:10] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:05:10] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:05:10] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:05:10] 📅 PHASE 3: Economic Calendar
+[16:05:10] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:05:10]   📅 06:30 GMT: CHF CPI m/m
+[16:05:10] ✅ Retrieved 9 economic events for simulation date
+[16:05:10] 🔍 PHASE 4: Market Research
+[16:05:33] ✅ Market research completed
+[16:05:33] 💼 PHASE 5: UFO Portfolio Management
+[16:05:33] ✅ Using REAL data from MT5 for EURJPY-ECN
+[16:05:33] 📊 Historical data collected for 8 symbols at 2025-08-04 12:30:00
+[16:05:33] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:05:33] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:05:33] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:05:33] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:05:33] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:05:33] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:05:33] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:05:33] ✅ Market data cached for 8 symbols
+[16:05:33] ✅ Portfolio assessed: 9 open positions
+[16:05:33] 🎯 PHASE 6: Trading Decisions
+[16:05:54] ✅ Trading decisions generated
+[16:05:54] ⚖️ PHASE 7: Risk Assessment
+[16:06:05] ✅ Risk assessment: OK
+[16:06:05] 💰 PHASE 8: Fund Manager Authorization
+[16:06:12] ✅ Fund Manager decision: APPROVED
+[16:06:12] ⚡ PHASE 9: Trade Execution
+[16:06:12] ✅ UFO Engine approved: Additional diversification possible: 9/18 max positions
+[16:06:12] 🔹 Trade closed by LLM: EURJPY-ECN P&L: $-5.00
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] 🔹 Trade executed: GBPUSD-ECN BUY 0.1 lots @ 1.32722
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] 🔹 Trade executed: CHFJPY-ECN SELL 0.1 lots @ 182.97500
+[16:06:12] 📋 PHASE 10: Cycle Summary
+[16:06:12] 📊 Cycle 26 Summary (12:30 GMT):
+[16:06:12]    Trades Executed: 3
+[16:06:12]    Total Trades Today: 23
+[16:06:12]    Open Positions: 10/18
+[16:06:12]    Closed Trades: 13
+[16:06:12]    Realized P&L: $+12.67
+[16:06:12]    Unrealized P&L: $+26.64
+[16:06:12]    Portfolio Value: $10,039.31 (Total P&L: $+39.31)
+[16:06:12] ✅ Using REAL data from MT5 for USDCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] 🎯 Marking USDCHF-ECN for closure: time-based exit (P&L: $17.00)
+[16:06:12] 📉 Position closed: USDCHF-ECN P&L: $17.00
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:12] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:12] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:12] 
+============================================================
+[16:06:12] CYCLE 27 - 13:00 GMT
+[16:06:12] ============================================================
+[16:06:12] 📊 PHASE 1: Data Collection
+[16:06:12] ✅ Collected data for 27 symbols
+[16:06:12] 🛸 PHASE 2: UFO Analysis
+[16:06:13] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:06:13] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:06:13] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:06:13] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:06:13] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:06:13] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:06:13] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:06:13] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:06:13] 📅 PHASE 3: Economic Calendar
+[16:06:13] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:06:13]   📅 06:30 GMT: CHF CPI m/m
+[16:06:13] ✅ Retrieved 9 economic events for simulation date
+[16:06:13] 🔍 PHASE 4: Market Research
+[16:06:38] ✅ Market research completed
+[16:06:38] 💼 PHASE 5: UFO Portfolio Management
+[16:06:38] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:06:38] 📊 Historical data collected for 8 symbols at 2025-08-04 13:00:00
+[16:06:38] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:06:38] ✅ Using REAL data from MT5 for EURCHF-ECN
+[16:06:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:06:38] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:06:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:06:38] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:06:38] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:06:38] ✅ Market data cached for 8 symbols
+[16:06:38] ✅ Portfolio assessed: 9 open positions
+[16:06:38] 🎯 PHASE 6: Trading Decisions
+[16:06:54] ✅ Trading decisions generated
+[16:06:54] ⚖️ PHASE 7: Risk Assessment
+[16:07:07] ✅ Risk assessment: OK
+[16:07:07] 💰 PHASE 8: Fund Manager Authorization
+[16:07:14] ✅ Fund Manager decision: APPROVED
+[16:07:14] ⚡ PHASE 9: Trade Execution
+[16:07:14] ✅ UFO Engine approved: Additional diversification possible: 9/18 max positions
+[16:07:14] 🔹 Trade closed by LLM: EURCHF-ECN P&L: $-3.11
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] 🔹 Trade executed: AUDCAD-ECN BUY 0.4 lots @ 0.89279
+[16:07:14] 📋 PHASE 10: Cycle Summary
+[16:07:14] 📊 Cycle 27 Summary (13:00 GMT):
+[16:07:14]    Trades Executed: 2
+[16:07:14]    Total Trades Today: 24
+[16:07:14]    Open Positions: 9/18
+[16:07:14]    Closed Trades: 15
+[16:07:14]    Realized P&L: $+26.56
+[16:07:14]    Unrealized P&L: $+36.79
+[16:07:14]    Portfolio Value: $10,063.35 (Total P&L: $+63.35)
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] 🎯 Marking GBPCHF-ECN for closure: time-based exit (P&L: $5.48)
+[16:07:14] 📉 Position closed: GBPCHF-ECN P&L: $5.48
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:14] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:14] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:14] 
+============================================================
+[16:07:14] CYCLE 28 - 13:30 GMT
+[16:07:14] ============================================================
+[16:07:14] 📊 PHASE 1: Data Collection
+[16:07:14] ✅ Collected data for 27 symbols
+[16:07:14] 🛸 PHASE 2: UFO Analysis
+[16:07:15] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:07:15] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:07:15] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:07:15] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:07:15] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:07:15] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:07:15] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:07:15] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:07:15] 📅 PHASE 3: Economic Calendar
+[16:07:15] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:07:15]   📅 06:30 GMT: CHF CPI m/m
+[16:07:15] ✅ Retrieved 9 economic events for simulation date
+[16:07:15] 🔍 PHASE 4: Market Research
+[16:07:41] ✅ Market research completed
+[16:07:41] 💼 PHASE 5: UFO Portfolio Management
+[16:07:41] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:07:41] 📊 Historical data collected for 8 symbols at 2025-08-04 13:30:00
+[16:07:41] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:07:41] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:07:41] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:07:41] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:07:41] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:07:41] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:07:41] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:07:41] ✅ Market data cached for 8 symbols
+[16:07:41] ✅ Portfolio assessed: 8 open positions
+[16:07:41] 🎯 PHASE 6: Trading Decisions
+[16:07:58] ✅ Trading decisions generated
+[16:07:58] ⚖️ PHASE 7: Risk Assessment
+[16:08:10] ✅ Risk assessment: OK
+[16:08:10] 💰 PHASE 8: Fund Manager Authorization
+[16:08:18] ✅ Fund Manager decision: APPROVED
+[16:08:18] ⚡ PHASE 9: Trade Execution
+[16:08:18] ✅ UFO Engine approved: Additional diversification possible: 8/18 max positions
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] 🔹 Trade executed: USDJPY-ECN BUY 0.4 lots @ 147.70745
+[16:08:18] 📋 PHASE 10: Cycle Summary
+[16:08:18] 📊 Cycle 28 Summary (13:30 GMT):
+[16:08:18]    Trades Executed: 1
+[16:08:18]    Total Trades Today: 25
+[16:08:18]    Open Positions: 9/18
+[16:08:18]    Closed Trades: 16
+[16:08:18]    Realized P&L: $+32.04
+[16:08:18]    Unrealized P&L: $+34.78
+[16:08:18]    Portfolio Value: $10,066.83 (Total P&L: $+66.83)
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] 💰 Portfolio update: $10,085.23 ($+13.37)
+[16:08:18]   📊 AUDJPY-ECN: -0.00600 → P&L: $-3.28
+[16:08:18]   📊 NZDJPY-ECN: -0.01000 → P&L: $+3.05
+[16:08:18]   📊 CHFJPY-ECN: -0.03900 → P&L: $+37.50
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] 💰 Portfolio update: $10,106.73 ($+21.50)
+[16:08:18]   📊 AUDJPY-ECN: -0.00300 → P&L: $-3.58
+[16:08:18]   📊 NZDJPY-ECN: +0.00400 → P&L: $+3.45
+[16:08:18]   📊 CHFJPY-ECN: +0.06600 → P&L: $+30.90
+[16:08:18] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:18] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:18] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:18] 
+============================================================
+[16:08:18] CYCLE 29 - 14:00 GMT
+[16:08:18] ============================================================
+[16:08:18] 📊 PHASE 1: Data Collection
+[16:08:19] ✅ Collected data for 27 symbols
+[16:08:19] 🛸 PHASE 2: UFO Analysis
+[16:08:19] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:08:19] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:08:19] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:08:19] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:08:19] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:08:19] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:08:19] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:08:19] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:08:19] 📅 PHASE 3: Economic Calendar
+[16:08:19] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:08:19]   📅 06:30 GMT: CHF CPI m/m
+[16:08:19] ✅ Retrieved 9 economic events for simulation date
+[16:08:19] 🔍 PHASE 4: Market Research
+[16:08:42] ✅ Market research completed
+[16:08:42] 💼 PHASE 5: UFO Portfolio Management
+[16:08:42] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:08:42] 📊 Historical data collected for 9 symbols at 2025-08-04 14:00:00
+[16:08:42] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:08:42] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:08:42] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:08:42] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:08:42] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:08:42] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:08:42] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:08:42] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:08:42] ✅ Market data cached for 9 symbols
+[16:08:42] ✅ Portfolio assessed: 9 open positions
+[16:08:42] 🎯 PHASE 6: Trading Decisions
+[16:08:55] ✅ Trading decisions generated
+[16:08:55] ⚖️ PHASE 7: Risk Assessment
+[16:09:08] ✅ Risk assessment: OK
+[16:09:08] 💰 PHASE 8: Fund Manager Authorization
+[16:09:17] ✅ Fund Manager decision: APPROVED
+[16:09:17] ⚡ PHASE 9: Trade Execution
+[16:09:17] ✅ UFO Engine approved: Additional diversification possible: 9/18 max positions
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] 🔹 Trade executed: GBPJPY-ECN BUY 0.4 lots @ 196.32673
+[16:09:17] ✅ Symbol mapped: GBPEUR-ECN -> EURGBP-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 🔹 Trade executed: EURGBP-ECN BUY 0.4 lots @ 0.87018
+[16:09:17] 📋 PHASE 10: Cycle Summary
+[16:09:17] 📊 Cycle 29 Summary (14:00 GMT):
+[16:09:17]    Trades Executed: 2
+[16:09:17]    Total Trades Today: 27
+[16:09:17]    Open Positions: 11/18
+[16:09:17]    Closed Trades: 16
+[16:09:17]    Realized P&L: $+32.04
+[16:09:17]    Unrealized P&L: $+65.20
+[16:09:17]    Portfolio Value: $10,097.24 (Total P&L: $+97.24)
+[16:09:17] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 💰 Portfolio update: $10,127.71 ($+30.47)
+[16:09:17]   📊 AUDJPY-ECN: +0.00200 → P&L: $-3.98
+[16:09:17]   📊 NZDJPY-ECN: -0.00700 → P&L: $+1.55
+[16:09:17]   📊 CHFJPY-ECN: -0.03500 → P&L: $+37.10
+[16:09:17] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 💰 Portfolio update: $10,077.19 ($-50.52)
+[16:09:17]   📊 AUDJPY-ECN: -0.01600 → P&L: $-5.58
+[16:09:17]   📊 NZDJPY-ECN: -0.00900 → P&L: $+0.65
+[16:09:17]   📊 CHFJPY-ECN: -0.02900 → P&L: $+40.00
+[16:09:17] 🎯 Marking USDJPY-ECN for closure: trailing stop (P&L: $23.42)
+[16:09:17] 📉 Position closed: USDJPY-ECN P&L: $23.42
+[16:09:17] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 💰 Portfolio update: $10,060.42 ($-16.77)
+[16:09:17]   📊 NZDJPY-ECN: -0.01400 → P&L: $-0.75
+[16:09:17]   📊 CHFJPY-ECN: +0.03500 → P&L: $+36.50
+[16:09:17]   📊 GBPJPY-ECN: -0.02900 → P&L: $-27.09
+[16:09:17] ✅ Using REAL data from MT5 for GBPCHF-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 💰 Portfolio update: $10,034.24 ($-26.19)
+[16:09:17]   📊 AUDJPY-ECN: -0.03200 → P&L: $-8.78
+[16:09:17]   📊 NZDJPY-ECN: -0.01100 → P&L: $-1.85
+[16:09:17]   📊 GBPUSD-ECN: -0.00074 → P&L: $-0.03
+[16:09:17] 🎯 Marking GBPCHF-ECN for closure: time-based exit (P&L: $1.17)
+[16:09:17] 📉 Position closed: GBPCHF-ECN P&L: $1.17
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 🎯 Marking GBPJPY-ECN for closure: stop loss (P&L: $-59.09)
+[16:09:17] 📉 Position closed: GBPJPY-ECN P&L: $-59.09
+[16:09:17] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:17] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:17] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:17] 
+============================================================
+[16:09:17] CYCLE 30 - 14:30 GMT
+[16:09:17] ============================================================
+[16:09:17] 📊 PHASE 1: Data Collection
+[16:09:17] ✅ Collected data for 27 symbols
+[16:09:17] 🛸 PHASE 2: UFO Analysis
+[16:09:18] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:09:18] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:09:18] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:09:18] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:09:18] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:09:18] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:09:18] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:09:18] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:09:18] 📅 PHASE 3: Economic Calendar
+[16:09:18] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:09:18]   📅 06:30 GMT: CHF CPI m/m
+[16:09:18] ✅ Retrieved 9 economic events for simulation date
+[16:09:18] 🔍 PHASE 4: Market Research
+[16:09:42] ✅ Market research completed
+[16:09:42] 💼 PHASE 5: UFO Portfolio Management
+[16:09:42] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:09:42] 📊 Historical data collected for 8 symbols at 2025-08-04 14:30:00
+[16:09:42] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:09:42] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:09:42] ✅ Using REAL data from MT5 for AUDCAD-ECN
+[16:09:42] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:09:42] ✅ Using REAL data from MT5 for NZDJPY-ECN
+[16:09:42] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:09:42] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:09:42] ✅ Market data cached for 8 symbols
+[16:09:42] ✅ Portfolio assessed: 8 open positions
+[16:09:42] 🎯 PHASE 6: Trading Decisions
+[16:09:57] ✅ Trading decisions generated
+[16:09:57] ⚖️ PHASE 7: Risk Assessment
+[16:10:10] ✅ Risk assessment: OK
+[16:10:10] 💰 PHASE 8: Fund Manager Authorization
+[16:10:21] ✅ Fund Manager decision: APPROVED
+[16:10:21] ⚡ PHASE 9: Trade Execution
+[16:10:21] ✅ UFO Engine approved: Additional diversification possible: 8/18 max positions
+[16:10:21] 🔹 Trade closed by LLM: NZDJPY-ECN P&L: $-4.35
+[16:10:21] 🔹 Trade closed by LLM: AUDCAD-ECN P&L: $-1.84
+[16:10:21] 📋 PHASE 10: Cycle Summary
+[16:10:21] 📊 Cycle 30 Summary (14:30 GMT):
+[16:10:21]    Trades Executed: 2
+[16:10:21]    Total Trades Today: 27
+[16:10:21]    Open Positions: 6/18
+[16:10:21]    Closed Trades: 21
+[16:10:21]    Realized P&L: $-8.65
+[16:10:21]    Unrealized P&L: $+27.99
+[16:10:21]    Portfolio Value: $10,019.35 (Total P&L: $+19.35)
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] 🎯 Marking CHFJPY-ECN for closure: trailing stop (P&L: $28.40)
+[16:10:21] 📉 Position closed: CHFJPY-ECN P&L: $28.40
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:21] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:21] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:21] 
+============================================================
+[16:10:21] CYCLE 31 - 15:00 GMT
+[16:10:21] ============================================================
+[16:10:21] 📊 PHASE 1: Data Collection
+[16:10:21] ✅ Collected data for 27 symbols
+[16:10:21] 🛸 PHASE 2: UFO Analysis
+[16:10:22] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:10:22] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:10:22] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:10:22] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:10:22] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:10:22] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:10:22] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:10:22] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:10:22] 📅 PHASE 3: Economic Calendar
+[16:10:22] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:10:22]   📅 06:30 GMT: CHF CPI m/m
+[16:10:22] ✅ Retrieved 9 economic events for simulation date
+[16:10:22] 🔍 PHASE 4: Market Research
+[16:10:46] ✅ Market research completed
+[16:10:46] 💼 PHASE 5: UFO Portfolio Management
+[16:10:46] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:10:46] 📊 Historical data collected for 5 symbols at 2025-08-04 15:00:00
+[16:10:46] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:10:46] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:10:46] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:10:46] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:10:46] ✅ Market data cached for 5 symbols
+[16:10:46] ✅ Portfolio assessed: 5 open positions
+[16:10:46] 🎯 PHASE 6: Trading Decisions
+[16:11:03] ✅ Trading decisions generated
+[16:11:03] ⚖️ PHASE 7: Risk Assessment
+[16:11:15] ✅ Risk assessment: OK
+[16:11:15] 💰 PHASE 8: Fund Manager Authorization
+[16:11:23] ✅ Fund Manager decision: APPROVED
+[16:11:23] ⚡ PHASE 9: Trade Execution
+[16:11:23] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:11:23] 🔹 Trade closed by LLM: AUDJPY-ECN P&L: $-16.48
+[16:11:23] 🔹 Trade closed by LLM: AUDNZD-ECN P&L: $-1.33
+[16:11:23] 🔹 Trade closed by LLM: EURCAD-ECN P&L: $-1.85
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] 🔹 Trade executed: USDJPY-ECN BUY 0.1 lots @ 147.49550
+[16:11:23] 📋 PHASE 10: Cycle Summary
+[16:11:23] 📊 Cycle 31 Summary (15:00 GMT):
+[16:11:23]    Trades Executed: 4
+[16:11:23]    Total Trades Today: 28
+[16:11:23]    Open Positions: 3/18
+[16:11:23]    Closed Trades: 25
+[16:11:23]    Realized P&L: $+0.09
+[16:11:23]    Unrealized P&L: $+3.77
+[16:11:23]    Portfolio Value: $10,003.86 (Total P&L: $+3.86)
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:23] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:23] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:23] 
+============================================================
+[16:11:23] CYCLE 32 - 15:30 GMT
+[16:11:23] ============================================================
+[16:11:23] 📊 PHASE 1: Data Collection
+[16:11:23] ✅ Collected data for 27 symbols
+[16:11:23] 🛸 PHASE 2: UFO Analysis
+[16:11:24] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:11:24] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:11:24] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:11:24] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:11:24] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:11:24] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:11:24] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:11:24] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:11:24] 📅 PHASE 3: Economic Calendar
+[16:11:24] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:11:24]   📅 06:30 GMT: CHF CPI m/m
+[16:11:24] ✅ Retrieved 9 economic events for simulation date
+[16:11:24] 🔍 PHASE 4: Market Research
+[16:11:42] ✅ Market research completed
+[16:11:42] 💼 PHASE 5: UFO Portfolio Management
+[16:11:42] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:11:42] 📊 Historical data collected for 3 symbols at 2025-08-04 15:30:00
+[16:11:42] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:11:42] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:11:42] ✅ Market data cached for 3 symbols
+[16:11:42] ✅ Portfolio assessed: 3 open positions
+[16:11:42] 🎯 PHASE 6: Trading Decisions
+[16:11:55] ✅ Trading decisions generated
+[16:11:55] ⚖️ PHASE 7: Risk Assessment
+[16:12:08] ✅ Risk assessment: OK
+[16:12:08] 💰 PHASE 8: Fund Manager Authorization
+[16:12:19] ✅ Fund Manager decision: APPROVED
+[16:12:19] ⚡ PHASE 9: Trade Execution
+[16:12:19] ✅ UFO Engine approved: Building diversification: 3/4 minimum positions
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] 🔹 Trade executed: AUDNZD-ECN BUY 0.2 lots @ 1.09467
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] 🔹 Trade executed: GBPJPY-ECN BUY 0.2 lots @ 196.18476
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] 🔹 Trade executed: EURUSD-ECN SELL 0.2 lots @ 1.15748
+[16:12:19] 📋 PHASE 10: Cycle Summary
+[16:12:19] 📊 Cycle 32 Summary (15:30 GMT):
+[16:12:19]    Trades Executed: 3
+[16:12:19]    Total Trades Today: 31
+[16:12:19]    Open Positions: 6/18
+[16:12:19]    Closed Trades: 25
+[16:12:19]    Realized P&L: $+0.09
+[16:12:19]    Unrealized P&L: $+7.90
+[16:12:19]    Portfolio Value: $10,007.99 (Total P&L: $+7.99)
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] 💰 Portfolio update: $9,951.38 ($-42.09)
+[16:12:19]   📊 USDJPY-ECN: -0.13800 → P&L: $-10.85
+[16:12:19]   📊 GBPJPY-ECN: -0.14000 → P&L: $-41.35
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] 💰 Portfolio update: $9,930.60 ($-20.78)
+[16:12:19]   📊 USDJPY-ECN: -0.04100 → P&L: $-14.95
+[16:12:19]   📊 GBPJPY-ECN: -0.08400 → P&L: $-58.15
+[16:12:19] 🎯 Marking GBPJPY-ECN for closure: stop loss (P&L: $-58.15)
+[16:12:19] 📉 Position closed: GBPJPY-ECN P&L: $-58.15
+[16:12:19] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:19] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:19] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:19] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:19] 
+============================================================
+[16:12:19] CYCLE 33 - 16:00 GMT
+[16:12:19] ============================================================
+[16:12:19] 📊 PHASE 1: Data Collection
+[16:12:20] ✅ Collected data for 27 symbols
+[16:12:20] 🛸 PHASE 2: UFO Analysis
+[16:12:20] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:12:20] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:12:20] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:12:20] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:12:20] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:12:20] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:12:20] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:12:20] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:12:20] 📅 PHASE 3: Economic Calendar
+[16:12:20] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:12:20]   📅 06:30 GMT: CHF CPI m/m
+[16:12:20] ✅ Retrieved 9 economic events for simulation date
+[16:12:20] 🔍 PHASE 4: Market Research
+[16:12:55] ✅ Market research completed
+[16:12:55] 💼 PHASE 5: UFO Portfolio Management
+[16:12:55] ✅ Using REAL data from MT5 for EURGBP-ECN
+[16:12:55] 📊 Historical data collected for 5 symbols at 2025-08-04 16:00:00
+[16:12:55] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:12:55] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:12:55] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:12:55] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:12:55] ✅ Market data cached for 5 symbols
+[16:12:55] ✅ Portfolio assessed: 5 open positions
+[16:12:55] 🎯 PHASE 6: Trading Decisions
+[16:13:19] ✅ Trading decisions generated
+[16:13:19] ⚖️ PHASE 7: Risk Assessment
+[16:13:29] ✅ Risk assessment: OK
+[16:13:29] 💰 PHASE 8: Fund Manager Authorization
+[16:13:36] ✅ Fund Manager decision: APPROVED
+[16:13:36] ⚡ PHASE 9: Trade Execution
+[16:13:36] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:13:36] 🔹 Trade closed by LLM: EURGBP-ECN P&L: $0.12
+[16:13:36] 🔹 Trade closed by LLM: USDJPY-ECN P&L: $-10.55
+[16:13:36] ✅ Symbol mapped: AUDEUR-ECN -> EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] 🔹 Trade executed: EURAUD-ECN BUY 0.2 lots @ 1.78447
+[16:13:36] ✅ Symbol mapped: CADEUR-ECN -> EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] 🔹 Trade executed: EURCAD-ECN BUY 0.2 lots @ 1.59332
+[16:13:36] 📋 PHASE 10: Cycle Summary
+[16:13:36] 📊 Cycle 33 Summary (16:00 GMT):
+[16:13:36]    Trades Executed: 4
+[16:13:36]    Total Trades Today: 33
+[16:13:36]    Open Positions: 5/18
+[16:13:36]    Closed Trades: 28
+[16:13:36]    Realized P&L: $-68.50
+[16:13:36]    Unrealized P&L: $+4.47
+[16:13:36]    Portfolio Value: $9,935.98 (Total P&L: $-64.02)
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:36] 
+============================================================
+[16:13:36] CYCLE 34 - 16:30 GMT
+[16:13:36] ============================================================
+[16:13:36] 📊 PHASE 1: Data Collection
+[16:13:37] ✅ Collected data for 27 symbols
+[16:13:37] 🛸 PHASE 2: UFO Analysis
+[16:13:37] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:13:37] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:13:37] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:13:37] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:13:37] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:13:37] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:13:37] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[16:13:37] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:13:37] 📅 PHASE 3: Economic Calendar
+[16:13:37] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:13:37]   📅 06:30 GMT: CHF CPI m/m
+[16:13:37] ✅ Retrieved 9 economic events for simulation date
+[16:13:37] 🔍 PHASE 4: Market Research
+[16:13:59] ✅ Market research completed
+[16:13:59] 💼 PHASE 5: UFO Portfolio Management
+[16:13:59] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:13:59] 📊 Historical data collected for 5 symbols at 2025-08-04 16:30:00
+[16:13:59] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:13:59] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:13:59] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:13:59] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:13:59] ✅ Market data cached for 5 symbols
+[16:13:59] ✅ Portfolio assessed: 5 open positions
+[16:13:59] 🎯 PHASE 6: Trading Decisions
+[16:14:17] ✅ Trading decisions generated
+[16:14:17] ⚖️ PHASE 7: Risk Assessment
+[16:14:29] ✅ Risk assessment: OK
+[16:14:29] 💰 PHASE 8: Fund Manager Authorization
+[16:14:36] ✅ Fund Manager decision: APPROVED
+[16:14:36] ⚡ PHASE 9: Trade Execution
+[16:14:36] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:14:36] ✅ Symbol mapped: CADUSD -> USDCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] 🔹 Trade executed: USDCAD-ECN SELL 0.1 lots @ 1.37692
+[16:14:36] 📋 PHASE 10: Cycle Summary
+[16:14:36] 📊 Cycle 34 Summary (16:30 GMT):
+[16:14:36]    Trades Executed: 1
+[16:14:36]    Total Trades Today: 34
+[16:14:36]    Open Positions: 6/18
+[16:14:36]    Closed Trades: 28
+[16:14:36]    Realized P&L: $-68.50
+[16:14:36]    Unrealized P&L: $+9.20
+[16:14:36]    Portfolio Value: $9,940.71 (Total P&L: $-59.29)
+[16:14:36] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] 🎯 Marking GBPUSD-ECN for closure: time-based exit (P&L: $3.26)
+[16:14:36] 📉 Position closed: GBPUSD-ECN P&L: $3.26
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:14:36] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:14:36] 
+============================================================
+[16:14:36] CYCLE 35 - 17:00 GMT
+[16:14:36] ============================================================
+[16:14:36] 📊 PHASE 1: Data Collection
+[16:14:36] ✅ Collected data for 27 symbols
+[16:14:36] 🛸 PHASE 2: UFO Analysis
+[16:14:36] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:14:36] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:14:36] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:14:36] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:14:36] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:14:36] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:14:36] 🔄 Mean Reversion Signals: 15 detected across timeframes
+[16:14:36] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:14:36] 📅 PHASE 3: Economic Calendar
+[16:14:36] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:14:36]   📅 06:30 GMT: CHF CPI m/m
+[16:14:36] ✅ Retrieved 9 economic events for simulation date
+[16:14:36] 🔍 PHASE 4: Market Research
+[16:15:03] ✅ Market research completed
+[16:15:03] 💼 PHASE 5: UFO Portfolio Management
+[16:15:03] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:03] 📊 Historical data collected for 5 symbols at 2025-08-04 17:00:00
+[16:15:03] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:03] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:03] ✅ Using REAL data from MT5 for EURUSD-ECN
+[16:15:03] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:03] ✅ Market data cached for 5 symbols
+[16:15:03] ✅ Portfolio assessed: 5 open positions
+[16:15:03] 🎯 PHASE 6: Trading Decisions
+[16:15:18] ✅ Trading decisions generated
+[16:15:18] ⚖️ PHASE 7: Risk Assessment
+[16:15:30] ✅ Risk assessment: OK
+[16:15:30] 💰 PHASE 8: Fund Manager Authorization
+[16:15:37] ✅ Fund Manager decision: APPROVED
+[16:15:37] ⚡ PHASE 9: Trade Execution
+[16:15:37] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:15:37] 🔹 Trade closed by LLM: EURUSD-ECN P&L: $-1.70
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] 🔹 Trade executed: USDJPY-ECN BUY 0.2 lots @ 147.07158
+[16:15:37] 📋 PHASE 10: Cycle Summary
+[16:15:37] 📊 Cycle 35 Summary (17:00 GMT):
+[16:15:37]    Trades Executed: 2
+[16:15:37]    Total Trades Today: 35
+[16:15:37]    Open Positions: 5/18
+[16:15:37]    Closed Trades: 30
+[16:15:37]    Realized P&L: $-66.93
+[16:15:37]    Unrealized P&L: $+6.59
+[16:15:37]    Portfolio Value: $9,939.66 (Total P&L: $-60.34)
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] 💰 Portfolio update: $9,925.37 ($-14.29)
+[16:15:37]   📊 USDJPY-ECN: -0.07058 → P&L: $-14.12
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] 💰 Portfolio update: $9,944.66 ($+23.65)
+[16:15:37]   📊 USDJPY-ECN: +0.12100 → P&L: $+6.88
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:15:37] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:15:37] 💰 Portfolio update: $9,969.66 ($+25.78)
+[16:15:37]   📊 USDJPY-ECN: +0.13200 → P&L: $+32.68
+[16:15:37] 
+============================================================
+[16:15:37] CYCLE 36 - 17:30 GMT
+[16:15:37] ============================================================
+[16:15:37] 📊 PHASE 1: Data Collection
+[16:15:38] ✅ Collected data for 27 symbols
+[16:15:38] 🛸 PHASE 2: UFO Analysis
+[16:15:38] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:15:38] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:15:38] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:15:38] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:15:38] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:15:38] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:15:38] 🔄 Mean Reversion Signals: 13 detected across timeframes
+[16:15:38] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:15:38] 📅 PHASE 3: Economic Calendar
+[16:15:38] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:15:38]   📅 06:30 GMT: CHF CPI m/m
+[16:15:38] ✅ Retrieved 9 economic events for simulation date
+[16:15:38] 🔍 PHASE 4: Market Research
+[16:16:02] ✅ Market research completed
+[16:16:02] 💼 PHASE 5: UFO Portfolio Management
+[16:16:02] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:02] 📊 Historical data collected for 5 symbols at 2025-08-04 17:30:00
+[16:16:02] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:02] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:02] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:16:02] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:02] ✅ Market data cached for 5 symbols
+[16:16:02] ✅ Portfolio assessed: 5 open positions
+[16:16:02] 🎯 PHASE 6: Trading Decisions
+[16:16:16] ✅ Trading decisions generated
+[16:16:16] ⚖️ PHASE 7: Risk Assessment
+[16:16:29] ✅ Risk assessment: OK
+[16:16:29] 💰 PHASE 8: Fund Manager Authorization
+[16:16:38] ✅ Fund Manager decision: APPROVED
+[16:16:38] ⚡ PHASE 9: Trade Execution
+[16:16:38] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] 🔹 Trade executed: GBPJPY-ECN BUY 0.1 lots @ 195.84182
+[16:16:38] 📋 PHASE 10: Cycle Summary
+[16:16:38] 📊 Cycle 36 Summary (17:30 GMT):
+[16:16:38]    Trades Executed: 1
+[16:16:38]    Total Trades Today: 36
+[16:16:38]    Open Positions: 6/18
+[16:16:38]    Closed Trades: 30
+[16:16:38]    Realized P&L: $-66.93
+[16:16:38]    Unrealized P&L: $+36.59
+[16:16:38]    Portfolio Value: $9,969.66 (Total P&L: $-30.34)
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDJPY-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] 💰 Portfolio update: $9,948.22 ($-21.44)
+[16:16:38]   📊 EURAUD-ECN: +0.00060 → P&L: $+3.44
+[16:16:38]   📊 USDJPY-ECN: -0.08300 → P&L: $+16.08
+[16:16:38]   📊 GBPJPY-ECN: -0.05582 → P&L: $-5.58
+[16:16:38] 🎯 Marking USDJPY-ECN for closure: trailing stop (P&L: $16.08)
+[16:16:38] 📉 Position closed: USDJPY-ECN P&L: $16.08
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:16:38] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:16:38] 💰 Portfolio update: $9,946.52 ($+13.87)
+[16:16:38]   📊 GBPJPY-ECN: +0.13200 → P&L: $-5.08
+[16:16:38] 
+============================================================
+[16:16:38] CYCLE 37 - 18:00 GMT
+[16:16:38] ============================================================
+[16:16:38] 📊 PHASE 1: Data Collection
+[16:16:39] ✅ Collected data for 27 symbols
+[16:16:39] 🛸 PHASE 2: UFO Analysis
+[16:16:39] 🔍 5: trending_market (confidence: high, scaling: 1.00)
+[16:16:39] 🔍 15: uncertain_market (confidence: low, scaling: 0.50)
+[16:16:39] 🔍 16385: mixed_market (confidence: medium, scaling: 0.75)
+[16:16:39] 🔍 16388: uncertain_market (confidence: low, scaling: 0.50)
+[16:16:39] 🔍 16408: uncertain_market (confidence: low, scaling: 0.50)
+[16:16:39] 📊 Timeframe Coherence: 2/8 currencies show strong coherence (25.0%)
+[16:16:39] 🔄 Mean Reversion Signals: 14 detected across timeframes
+[16:16:39] ✅ Enhanced UFO analysis completed for 5 timeframes
+[16:16:39] 📅 PHASE 3: Economic Calendar
+[16:16:39] ⚠️ 1 HIGH IMPACT events scheduled for trading day:
+[16:16:39]   📅 06:30 GMT: CHF CPI m/m
+[16:16:39] ✅ Retrieved 9 economic events for simulation date
+[16:16:39] 🔍 PHASE 4: Market Research
+[16:17:07] ✅ Market research completed
+[16:17:07] 💼 PHASE 5: UFO Portfolio Management
+[16:17:07] ✅ Using REAL data from MT5 for USDCAD-ECN
+[16:17:07] 📊 Historical data collected for 5 symbols at 2025-08-04 18:00:00
+[16:17:07] ✅ Using REAL data from MT5 for EURCAD-ECN
+[16:17:07] ✅ Using REAL data from MT5 for AUDNZD-ECN
+[16:17:07] ✅ Using REAL data from MT5 for GBPJPY-ECN
+[16:17:07] ✅ Using REAL data from MT5 for EURAUD-ECN
+[16:17:07] ✅ Market data cached for 5 symbols
+[16:17:07] ✅ Portfolio assessed: 5 open positions
+[16:17:07] 🎯 PHASE 6: Trading Decisions
+[16:17:22] ✅ Trading decisions generated
+[16:17:22] ⚖️ PHASE 7: Risk Assessment
+[16:17:35] ✅ Risk assessment: OK
+[16:17:35] 💰 PHASE 8: Fund Manager Authorization
+[16:17:43] ✅ Fund Manager decision: APPROVED
+[16:17:43] ⚡ PHASE 9: Trade Execution
+[16:17:43] ✅ UFO Engine approved: Quality opportunity available: 5/6 target positions
+[16:17:43] ✅ Using REAL data from MT5 for GBPUSD-ECN
+[16:17:43] 🔹 Trade executed: GBPUSD-ECN BUY 0.1 lots @ 1.33059
+[16:17:43] ✅ Using REAL data from MT5 for AUDJPY-ECN
+[16:17:43] 🔹 Trade executed: AUDJPY-ECN BUY 0.1 lots @ 95.33493
+[16:17:43] ✅ Using REAL data from MT5 for CHFJPY-ECN
+[16:17:43] 🔹 Trade executed: CHFJPY-ECN BUY 0.1 lots @ 182.17556
+[16:17:43] ✅ Using REAL data from MT5 for CADJPY-ECN
+[16:17:43] 🔹 Trade executed: CADJPY-ECN BUY 0.1 lots @ 106.86662
+[16:17:43] 📋 PHASE 10: Cycle Summary
+[16:17:43] 📊 Cycle 37 Summary (18:00 GMT):
+[16:17:43]    Trades Executed: 4
+[16:17:43]    Total Trades Today: 40
+[16:17:43]    Open Positions: 9/18
+[16:17:43]    Closed Trades: 31
+[16:17:43]    Realized P&L: $-50.85
+[16:17:43]    Unrealized P&L: $-2.63
+[16:17:43]    Portfolio Value: $9,946.52 (Total P&L: $-53.48)
+[16:17:43] 
+================================================================================
+[16:17:43] 🎯 FULL DAY SIMULATION COMPLETED
+[16:17:43] ================================================================================
+[16:17:43] 📅 Date: Monday, August 04, 2025
+[16:17:43] ⏰ Total Cycles: 37
+[16:17:43] 💼 Total Trades Executed: 40
+[16:17:43] 💰 Final Portfolio Value: $9,946.52
+[16:17:43] 
+📈 EXECUTED TRADES SUMMARY:
+[16:17:43]   1. GBPJPY-ECN BUY 0.1 @ 196.10677 (UFO Cycle 17)
+[16:17:43]   2. AUDCHF-ECN BUY 0.1 @ 0.52189 (UFO Cycle 17)
+[16:17:43]   3. GBPCHF-ECN BUY 0.1 @ 1.06945 (UFO Cycle 17)
+[16:17:43]   4. EURUSD-ECN SELL 0.1 @ 1.15833 (UFO Cycle 17)
+[16:17:43]   5. AUDUSD-ECN BUY 0.1 @ 0.64844 (UFO Cycle 17)
+[16:17:43]   6. USDCHF-ECN BUY 0.4 @ 0.80487 (UFO Cycle 18)
+[16:17:43]   7. AUDCAD-ECN BUY 0.4 @ 0.89300 (UFO Cycle 18)
+[16:17:43]   8. EURCAD-ECN BUY 0.4 @ 1.59527 (UFO Cycle 18)
+[16:17:43]   9. AUDUSD-ECN BUY 0.1 @ 0.64821 (UFO Cycle 19)
+[16:17:43]   10. GBPCHF-ECN BUY 0.1 @ 1.06909 (UFO Cycle 19)
+[16:17:43]   11. EURCHF-ECN SELL 0.1 @ 0.93224 (UFO Cycle 20)
+[16:17:43]   12. CADJPY-ECN SELL 0.1 @ 107.30400 (UFO Cycle 20)
+[16:17:43]   13. GBPUSD-ECN BUY 0.1 @ 1.32751 (UFO Cycle 21)
+[16:17:43]   14. AUDCAD-ECN BUY 0.1 @ 0.89270 (UFO Cycle 21)
+[16:17:43]   15. EURJPY-ECN SELL 0.1 @ 171.01000 (UFO Cycle 21)
+[16:17:43]   16. GBPCHF-ECN BUY 0.036 @ 1.07122 (Dynamic dynamic_price_movement)
+[16:17:43]   17. USDJPY-ECN BUY 0.1 @ 147.63247 (UFO Cycle 22)
+[16:17:43]   18. AUDJPY-ECN BUY 0.1 @ 95.76884 (UFO Cycle 23)
+[16:17:43]   19. AUDNZD-ECN BUY 0.1 @ 1.09606 (UFO Cycle 23)
+[16:17:43]   20. EURCAD-ECN SELL 0.1 @ 1.59335 (UFO Cycle 25)
+[16:17:43]   21. NZDJPY-ECN BUY 0.1 @ 87.35752 (UFO Cycle 25)
+[16:17:43]   22. GBPUSD-ECN BUY 0.1 @ 1.32722 (UFO Cycle 26)
+[16:17:43]   23. CHFJPY-ECN SELL 0.1 @ 182.97500 (UFO Cycle 26)
+[16:17:43]   24. AUDCAD-ECN BUY 0.4 @ 0.89279 (UFO Cycle 27)
+[16:17:43]   25. USDJPY-ECN BUY 0.4 @ 147.70745 (UFO Cycle 28)
+[16:17:43]   26. GBPJPY-ECN BUY 0.4 @ 196.32673 (UFO Cycle 29)
+[16:17:43]   27. EURGBP-ECN BUY 0.4 @ 0.87018 (UFO Cycle 29)
+[16:17:43]   28. USDJPY-ECN BUY 0.1 @ 147.49550 (UFO Cycle 31)
+[16:17:43]   29. AUDNZD-ECN BUY 0.2 @ 1.09467 (UFO Cycle 32)
+[16:17:43]   30. GBPJPY-ECN BUY 0.2 @ 196.18476 (UFO Cycle 32)
+[16:17:43]   31. EURUSD-ECN SELL 0.2 @ 1.15748 (UFO Cycle 32)
+[16:17:43]   32. EURAUD-ECN BUY 0.2 @ 1.78447 (UFO Cycle 33)
+[16:17:43]   33. EURCAD-ECN BUY 0.2 @ 1.59332 (UFO Cycle 33)
+[16:17:43]   34. USDCAD-ECN SELL 0.1 @ 1.37692 (UFO Cycle 34)
+[16:17:43]   35. USDJPY-ECN BUY 0.2 @ 147.07158 (UFO Cycle 35)
+[16:17:43]   36. GBPJPY-ECN BUY 0.1 @ 195.84182 (UFO Cycle 36)
+[16:17:43]   37. GBPUSD-ECN BUY 0.1 @ 1.33059 (UFO Cycle 37)
+[16:17:43]   38. AUDJPY-ECN BUY 0.1 @ 95.33493 (UFO Cycle 37)
+[16:17:43]   39. CHFJPY-ECN BUY 0.1 @ 182.17556 (UFO Cycle 37)
+[16:17:43]   40. CADJPY-ECN BUY 0.1 @ 106.86662 (UFO Cycle 37)
+[16:17:43] 
+🎯 Final Diversification Status:
+[16:17:43]    Positions: 42/18
+[16:17:43]    Target: 6
+[16:17:43]    Minimum: 4
+[16:17:43]    Status: ✅ Well Diversified

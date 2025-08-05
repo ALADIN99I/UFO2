@@ -729,6 +729,31 @@ class FullDayTradingSimulation:
             self.log_event(f"❌ Fund authorization error: {e}")
             return "REJECT: Authorization error"
     
+    def validate_and_map_symbol(self, symbol_to_validate):
+        """
+        Validates a currency pair from the LLM and maps it to a valid MT5 symbol.
+        Example: GBPEUR -> EURGBP-ECN
+        """
+        valid_symbols = self.config['trading']['symbols'].split(',')
+        suffix = self.config['mt5'].get('symbol_suffix', '')
+        
+        # Direct match
+        if symbol_to_validate in valid_symbols:
+            return symbol_to_validate
+        
+        # Clean up symbol for mapping (e.g., GBPEUR -> EURGBP)
+        cleaned_symbol = symbol_to_validate.replace('/', '').replace(suffix, '')
+        
+        # Reverse mapping
+        if len(cleaned_symbol) == 6:
+            reversed_symbol = cleaned_symbol[3:] + cleaned_symbol[:3] + suffix
+            if reversed_symbol in valid_symbols:
+                self.log_event(f"✅ Symbol mapped: {symbol_to_validate} -> {reversed_symbol}")
+                return reversed_symbol
+        
+        self.log_event(f"⚠️ Invalid symbol from LLM: {symbol_to_validate}")
+        return None
+
     def execute_approved_trades(self, authorization, trade_decisions, current_positions, ufo_data, current_time=None):
         """Execute trades if approved"""
         executed_count = 0
@@ -791,13 +816,11 @@ class FullDayTradingSimulation:
                             direction = action.get('direction', '').upper()
                             volume = action.get('volume') or action.get('lot_size', 0.1)
                             
-                            # Add symbol suffix if it doesn't exist
-                            base_symbol = symbol.replace("/", "")
-                            suffix = self.config['mt5'].get('symbol_suffix', '')
-                            if not base_symbol.endswith(suffix):
-                                full_symbol = base_symbol + suffix
-                            else:
-                                full_symbol = base_symbol
+                            # Validate and map the symbol
+                            full_symbol = self.validate_and_map_symbol(symbol)
+                            
+                            if not full_symbol:
+                                continue
                             
                             # Generate realistic entry price based on symbol
                             base_prices = {
@@ -1433,9 +1456,9 @@ class FullDayTradingSimulation:
 
 def main():
     """Main function to run the full day simulation"""
-    print("🚀 Starting UFO Forex Agent v3 - FULL DAY SIMULATION")
-    print("📅 Target Date: Monday, August 4th, 2025")
-    print("🕐 Trading Hours: 0:00 GMT to 18:00 GMT (Every 30 minutes)")
+    print("Starting UFO Forex Agent v3 - FULL DAY SIMULATION")
+    print("Target Date: Monday, August 4th, 2025")
+    print("Trading Hours: 0:00 GMT to 18:00 GMT (Every 30 minutes)")
     print("-" * 60)
     
     try:
@@ -1443,12 +1466,12 @@ def main():
         simulation = FullDayTradingSimulation(datetime.datetime(2025, 8, 4))
         simulation.run_full_day_simulation()
         
-        print(f"\n✅ Full day simulation completed successfully!")
-        print(f"📊 {simulation.cycle_count} cycles executed")
-        print(f"💼 {len(simulation.trades_executed)} trades executed")
+        print(f"\nFull day simulation completed successfully!")
+        print(f"{simulation.cycle_count} cycles executed")
+        print(f"{len(simulation.trades_executed)} trades executed")
         
     except Exception as e:
-        print(f"\n💥 Simulation failed with error: {e}")
+        print(f"\nSimulation failed with error: {e}")
         import traceback
         traceback.print_exc()
 
