@@ -490,26 +490,30 @@ class FullDayTradingSimulation:
         return 8 <= hour < 20
     
     def collect_market_data(self):
-        """Collect market data for analysis"""
+        """Collect market data for analysis for all symbols."""
         try:
-            timeframes = [mt5.TIMEFRAME_M5, mt5.TIMEFRAME_M15, mt5.TIMEFRAME_H1, mt5.TIMEFRAME_H4, mt5.TIMEFRAME_D1]
-            timeframe_bars = {
-                mt5.TIMEFRAME_M5: 240,
-                mt5.TIMEFRAME_M15: 80,
-                mt5.TIMEFRAME_H1: 20,
-                mt5.TIMEFRAME_H4: 120,
-                mt5.TIMEFRAME_D1: 100
-            }
+            symbols = self.config['trading']['symbols'].split(',')
+            all_data = {}
+            for symbol in symbols:
+                timeframes = [mt5.TIMEFRAME_M5, mt5.TIMEFRAME_M15, mt5.TIMEFRAME_H1, mt5.TIMEFRAME_H4, mt5.TIMEFRAME_D1]
+                timeframe_bars = {
+                    mt5.TIMEFRAME_M5: 240,
+                    mt5.TIMEFRAME_M15: 80,
+                    mt5.TIMEFRAME_H1: 20,
+                    mt5.TIMEFRAME_H4: 120,
+                    mt5.TIMEFRAME_D1: 100
+                }
+
+                data = self.data_analyst.execute({
+                    'source': 'mt5',
+                    'symbol': symbol,
+                    'timeframes': timeframes,
+                    'num_bars': timeframe_bars
+                })
+                all_data[symbol] = data
             
-            data = self.data_analyst.execute({
-                'source': 'mt5',
-                'symbol': 'EURUSD-ECN',
-                'timeframes': timeframes,
-                'num_bars': timeframe_bars
-            })
-            
-            self.log_event(f"✅ Collected data for {len(data) if data else 0} timeframes")
-            return data
+            self.log_event(f"✅ Collected data for {len(all_data)} symbols")
+            return all_data
         except Exception as e:
             self.log_event(f"❌ Data collection error: {e}")
             return None
@@ -520,8 +524,16 @@ class FullDayTradingSimulation:
             return None
             
         try:
+            # Reshape the data for the UfoCalculator
+            reshaped_data = {}
+            for symbol, timeframe_data in price_data.items():
+                for timeframe, df in timeframe_data.items():
+                    if timeframe not in reshaped_data:
+                        reshaped_data[timeframe] = pd.DataFrame()
+                    reshaped_data[timeframe][symbol] = df['close']
+
             incremental_sums_dict = {}
-            for timeframe, price_df in price_data.items():
+            for timeframe, price_df in reshaped_data.items():
                 variation_data = self.ufo_calculator.calculate_percentage_variation(price_df)
                 incremental_sums_dict[timeframe] = self.ufo_calculator.calculate_incremental_sum(variation_data)
             
