@@ -798,17 +798,6 @@ class FullDayTradingSimulation:
                                 full_symbol = base_symbol + suffix
                             else:
                                 full_symbol = base_symbol
-                        elif action.get('action') == 'close_trade':
-                            trade_id = action.get('trade_id')
-                            if trade_id:
-                                position_to_close = next((p for p in self.open_positions if p.get('ticket') == trade_id), None)
-                                if position_to_close:
-                                    self.open_positions.remove(position_to_close)
-                                    self.realized_pnl += position_to_close.get('pnl', 0.0)
-                                    self.closed_trades.append(position_to_close)
-                                    self.log_event(f"🔹 Trade closed by LLM: {position_to_close['symbol']} P&L: ${position_to_close.get('pnl', 0.0):.2f}")
-                                    executed_count += 1
-                            continue # Continue to next action
                             
                             # Generate realistic entry price based on symbol
                             base_prices = {
@@ -850,6 +839,18 @@ class FullDayTradingSimulation:
                             executed_count += 1
                             
                             self.log_event(f"🔹 Trade executed: {full_symbol} {direction} {volume} lots @ {position_info['entry_price']:.5f}")
+
+                        elif action.get('action') == 'close_trade':
+                            trade_id = action.get('trade_id')
+                            if trade_id:
+                                position_to_close = next((p for p in self.open_positions if p.get('ticket') == trade_id), None)
+                                if position_to_close:
+                                    self.open_positions.remove(position_to_close)
+                                    self.realized_pnl += position_to_close.get('pnl', 0.0)
+                                    self.closed_trades.append(position_to_close)
+                                    self.log_event(f"🔹 Trade closed by LLM: {position_to_close['symbol']} P&L: ${position_to_close.get('pnl', 0.0):.2f}")
+                                    executed_count += 1
+                            continue # Continue to next action
                             
             except Exception as e:
                 self.log_event(f"❌ Trade execution error: {e}")
