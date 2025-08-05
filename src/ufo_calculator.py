@@ -80,12 +80,14 @@ class UfoCalculator:
                 reversals = self._count_direction_changes(currency_data)
                 
                 # Determine market state
-                if abs(z_score) > self.mean_reversion_threshold:
+                is_trending = all(currency_data.iloc[-3:] > mean_value) or all(currency_data.iloc[-3:] < mean_value)
+
+                if is_trending and abs(z_score) > 1.5:
+                    market_state = 'trending'
+                elif abs(z_score) > self.mean_reversion_threshold:
                     market_state = 'mean_reversion_opportunity'
                 elif reversals >= 3 and volatility > 0.5:
                     market_state = 'oscillating'
-                elif abs(z_score) < 0.5 and reversals <= 1:
-                    market_state = 'trending'
                 else:
                     market_state = 'uncertain'
                 
