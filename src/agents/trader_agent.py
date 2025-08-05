@@ -1,5 +1,3 @@
-import json
-import json
 from .base_agent import Agent
 from ..portfolio_manager import PortfolioManager
 
@@ -7,42 +5,6 @@ class TraderAgent(Agent):
     def __init__(self, name, llm_client, mt5_connection):
         super().__init__(name, llm_client)
         self.portfolio_manager = PortfolioManager(mt5_connection)
-
-    def _normalize_currency_pair(self, pair):
-        """Normalizes a currency pair to the standard notation."""
-        # Remove any suffixes and delimiters
-        clean_pair = pair.upper().replace("/", "").replace("-ECN", "")
-
-        # Define a mapping of non-standard pairs to their standard equivalents
-        pair_map = {
-            "USDEUR": "EURUSD",
-            "USDGBP": "GBPUSD",
-            "JPYUSD": "USDJPY",
-            "CADUSD": "USDCAD",
-            "CHFUSD": "USDCHF",
-            "GBPEUR": "EURGBP",
-            "USDNZD": "NZDUSD",
-            "USDAUD": "AUDUSD",
-            "CADAUD": "AUDCAD",
-            "CHFNZD": "NZDCHF",
-        }
-
-        # Normalize the pair
-        normalized_pair = pair_map.get(clean_pair, clean_pair)
-
-        # Ensure the pair is in the list of valid pairs
-        valid_pairs = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD", "USDCHF", "EURAUD", "EURCAD", "EURCHF", "EURGBP", "EURJPY", "EURNZD", "GBPAUD", "GBPCAD", "GBPCHF", "GBPJPY", "GBPNZD", "AUDCAD", "AUDCHF", "AUDJPY", "AUDNZD", "CADCHF", "CADJPY", "CHFJPY", "NZDCAD", "NZDCHF", "NZDJPY"]
-        if normalized_pair not in valid_pairs:
-            # If the pair is not in the valid list, try reversing it
-            reversed_pair = normalized_pair[3:] + normalized_pair[:3]
-            if reversed_pair in valid_pairs:
-                normalized_pair = reversed_pair
-
-        # Add the suffix if it's not already there
-        if not normalized_pair.endswith("-ECN"):
-            return normalized_pair + "-ECN"
-        else:
-            return normalized_pair
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
@@ -94,12 +56,7 @@ class TraderAgent(Agent):
             "• Prefer different currency pairs/correlations\n\n"
             f"{diversification_guidance}\n\n"
             "The trade plan should be a JSON object with actions having this structure: "
-            "`{'action': 'new_trade'/'adjust_trade'/'close_trade', 'trade_id': <optional>, 'currency_pair': 'EURUSD-ECN', 'direction': 'BUY/SELL', 'entry_price': 1.0800, 'lot_size': 0.40}`.\n\n"
-            "CURRENCY PAIR NOTATION RULES:\n"
-            "1.  Always use the standard notation for currency pairs. The base currency is the first currency in the pair, and the quote currency is the second.\n"
-            "2.  For major pairs, the standard notation is: EURUSD, GBPUSD, USDJPY, USDCAD, USDCHF, AUDUSD, NZDUSD.\n"
-            "3.  For other pairs, the base currency is generally the one with the higher value. For example, if you want to trade the British Pound against the Euro, the correct notation is EURGBP, not GBPEUR.\n"
-            "4.  Your broker uses the '-ECN' suffix, so all currency pairs should end with '-ECN' (e.g., 'EURUSD-ECN').\n\n"
+            "`{'action': 'new_trade'/'adjust_trade'/'close_trade', 'trade_id': <optional>, 'currency_pair': 'EURUSD', 'direction': 'BUY/SELL', 'entry_price': 1.0800, 'lot_size': 0.40}`.\n\n"
             "IMPORTANT: NO individual stop losses or take profits - UFO methodology uses PORTFOLIO-LEVEL risk management only!\n\n"
             f"Account Balance: ${balance} - Risk tolerance: 0.8-1.2% per trade, max 4.5% total portfolio risk.\n\n"
             f"Research Consensus:\n{research_consensus}\n\n"
@@ -119,14 +76,4 @@ class TraderAgent(Agent):
             print("Warning: TraderAgent LLM did not return a valid trade decision string.")
 
         print(f"LLM Trade Decision:\n{trade_decision_str}")
-
-        # Normalize the currency pairs in the trade decision
-        try:
-            trade_decision_json = json.loads(trade_decision_str)
-            if "trades" in trade_decision_json:
-                for trade in trade_decision_json["trades"]:
-                    if "currency_pair" in trade:
-                        trade["currency_pair"] = self._normalize_currency_pair(trade["currency_pair"])
-            return json.dumps(trade_decision_json)
-        except json.JSONDecodeError:
-            return trade_decision_str # Return original string if not valid JSON
+        return trade_decision_str
