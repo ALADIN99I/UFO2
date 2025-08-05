@@ -956,7 +956,7 @@ class FullDayTradingSimulation:
             for i, trade in enumerate(self.trades_executed, 1):
                 self.log_event(f"  {i}. {trade['symbol']} {trade['direction']} {trade['volume']} @ {trade['entry_price']:.5f} ({trade['comment']})")
         
-        final_positions = 2 + len(self.trades_executed)
+        final_positions = len(self.open_positions)
         self.log_event(f"\n🎯 Final Diversification Status:")
         self.log_event(f"   Positions: {final_positions}/{self.max_concurrent_positions}")
         self.log_event(f"   Target: {self.target_positions_when_available}")
