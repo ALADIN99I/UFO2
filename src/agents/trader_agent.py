@@ -1,4 +1,5 @@
 import json
+import json
 from .base_agent import Agent
 from ..portfolio_manager import PortfolioManager
 
@@ -36,13 +37,12 @@ class TraderAgent(Agent):
             reversed_pair = normalized_pair[3:] + normalized_pair[:3]
             if reversed_pair in valid_pairs:
                 normalized_pair = reversed_pair
-            else:
-                # If neither the original nor the reversed pair is valid, return the original pair with suffix
-                return pair + "-ECN" if not pair.endswith("-ECN") else pair
 
-
-        # Add the suffix
-        return normalized_pair + "-ECN"
+        # Add the suffix if it's not already there
+        if not normalized_pair.endswith("-ECN"):
+            return normalized_pair + "-ECN"
+        else:
+            return normalized_pair
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
