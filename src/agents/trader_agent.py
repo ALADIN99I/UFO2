@@ -1,3 +1,4 @@
+import json
 from .base_agent import Agent
 from ..portfolio_manager import PortfolioManager
 
