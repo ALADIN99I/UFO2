@@ -2,9 +2,10 @@ from .base_agent import Agent
 from ..portfolio_manager import PortfolioManager
 
 class TraderAgent(Agent):
-    def __init__(self, name, llm_client, mt5_connection):
+    def __init__(self, name, llm_client, mt5_connection, symbols=None):
         super().__init__(name, llm_client)
         self.portfolio_manager = PortfolioManager(mt5_connection)
+        self.symbols = symbols if symbols else []
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
@@ -57,6 +58,7 @@ class TraderAgent(Agent):
             f"{diversification_guidance}\n\n"
             "The trade plan should be a JSON object with actions having this structure: "
             "`{'action': 'new_trade'/'adjust_trade'/'close_trade', 'trade_id': <optional>, 'currency_pair': 'EURUSD', 'direction': 'BUY/SELL', 'entry_price': 1.0800, 'lot_size': 0.40}`.\n\n"
+            f"You MUST use only the following currency pairs for new trades: {self.symbols}\n\n"
             "IMPORTANT: NO individual stop losses or take profits - UFO methodology uses PORTFOLIO-LEVEL risk management only!\n\n"
             f"Account Balance: ${balance} - Risk tolerance: 0.8-1.2% per trade, max 4.5% total portfolio risk.\n\n"
             f"Research Consensus:\n{research_consensus}\n\n"

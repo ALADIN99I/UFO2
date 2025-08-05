@@ -104,9 +104,10 @@ class FullDayTradingSimulation:
         self.ufo_engine = SimulationUFOTradingEngine(self.config, self.simulation_date)
         
         # Initialize agents
+        symbols_list = self.config['trading']['symbols'].split(',')
         self.data_analyst = DataAnalystAgent("DataAnalyst", self.mt5_collector)
         self.market_researcher = MarketResearcherAgent("MarketResearcher", self.llm_client)
-        self.trader = TraderAgent("Trader", self.llm_client, self.mt5_collector)
+        self.trader = TraderAgent("Trader", self.llm_client, self.mt5_collector, symbols=symbols_list)
         self.risk_manager = RiskManagerAgent("RiskManager", self.llm_client, self.mt5_collector, self.config)
         self.fund_manager = FundManagerAgent("FundManager", self.llm_client)
         
