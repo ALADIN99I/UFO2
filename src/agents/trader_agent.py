@@ -41,6 +41,9 @@ class TraderAgent(Agent):
         elif position_count >= (max_positions - 2):
             diversification_guidance = f"\n⚠️ HIGH DIVERSIFICATION: {position_count} positions - focus on position management, avoid new trades unless replacing closed ones (max {max_positions})."
         
+        if position_count >= max_positions:
+            return '{"trades": []}'
+
         prompt = (
             "You are a professional Forex trader implementing intelligent diversification with UFO methodology. "
             "Based on the following multi-timeframe research consensus and current portfolio, formulate a precise trade plan. "

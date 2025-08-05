@@ -107,15 +107,5 @@ class SimulationUFOTradingEngine(UFOTradingEngine):
                 
                 return True, f"High-impact economic events approaching: {'; '.join(event_details)}"
         
-        # Fallback to generic major news times only if no economic calendar provided
-        if economic_events is None or economic_events.empty:
-            major_news_times = [
-                (time(8, 30), time(9, 30)),   # London open + ECB times (GMT)
-                (time(13, 30), time(14, 30)), # NY open + Fed times (GMT)
-            ]
-            
-            for start_time, end_time in major_news_times:
-                if start_time <= current_time_gmt <= end_time:
-                    return True, f"Major news period: {start_time.strftime('%H:%M')}-{end_time.strftime('%H:%M')} GMT (current: {current_time_gmt.strftime('%H:%M')} GMT)"
                 
         return False, "Normal trading hours"
