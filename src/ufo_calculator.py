@@ -218,7 +218,14 @@ class UfoCalculator:
             
             # Magnitude coherence (similar strength levels)
             if len(strengths) > 1:
-                magnitude_coherence = 1 - (np.std(strengths) / (np.mean(np.abs(strengths)) + 1e-10))
+                # Normalize the strengths to a range of [0, 1]
+                min_strength = np.min(strengths)
+                max_strength = np.max(strengths)
+                if max_strength - min_strength > 0:
+                    normalized_strengths = (strengths - min_strength) / (max_strength - min_strength)
+                    magnitude_coherence = 1 - np.std(normalized_strengths)
+                else:
+                    magnitude_coherence = 1.0
                 magnitude_coherence = max(0, min(1, magnitude_coherence))  # Clamp to [0,1]
             else:
                 magnitude_coherence = 1.0
