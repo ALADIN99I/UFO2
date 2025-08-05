@@ -40,15 +40,21 @@ class TraderAgent(Agent):
         valid_pairs = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD", "USDCHF", "EURAUD", "EURCAD", "EURCHF", "EURGBP", "EURJPY", "EURNZD", "GBPAUD", "GBPCAD", "GBPCHF", "GBPJPY", "GBPNZD", "AUDCAD", "AUDCHF", "AUDJPY", "AUDNZD", "CADCHF", "CADJPY", "CHFJPY", "NZDCAD", "NZDCHF", "NZDJPY"]
 
         if normalized_pair in valid_pairs:
-            return normalized_pair + "-ECN"
+            if not normalized_pair.endswith("-ECN"):
+                return normalized_pair + "-ECN"
+            return normalized_pair
         else:
             # If the pair is not in the valid list, try reversing it
             reversed_pair = normalized_pair[3:] + normalized_pair[:3]
             if reversed_pair in valid_pairs:
-                return reversed_pair + "-ECN"
+                if not reversed_pair.endswith("-ECN"):
+                    return reversed_pair + "-ECN"
+                return reversed_pair
             else:
                 # If neither the original nor the reversed pair is valid, return the original (it will fail later)
-                return pair + "-ECN"
+                if not pair.endswith("-ECN"):
+                    return pair + "-ECN"
+                return pair
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
