@@ -140,20 +140,8 @@ class FullDayTradingSimulation:
                 if rates is not None and len(rates) > 0:
                     return float(rates[0]['close'])
                 else:
-                    # Ultimate fallback: use base prices
-                    base_prices = {
-                        'EURUSD-ECN': 1.0850, 'GBPUSD-ECN': 1.2650, 'USDJPY-ECN': 143.50,
-                        'AUDUSD-ECN': 0.6720, 'USDCAD-ECN': 1.3580, 'NZDUSD-ECN': 0.6250,
-                        'EURJPY-ECN': 155.20, 'GBPJPY-ECN': 180.50, 'AUDJPY-ECN': 96.30,
-                        'USDCHF-ECN': 0.9120, 'EURCHF-ECN': 0.9880, 'GBPCHF-ECN': 1.1520,
-                        'AUDCAD-ECN': 0.9080, 'NZDJPY-ECN': 89.60, 'CADCHF-ECN': 0.6730,
-                        'CHFJPY-ECN': 157.20, 'AUDNZD-ECN': 1.0750, 'EURGBP-ECN': 0.8590,
-                        'GBPCAD-ECN': 1.7180, 'XAUUSD-ECN': 1850.00, 'GBPAUD-ECN': 1.8820
-                    }
-                    base_price = base_prices.get(symbol, 1.0850)
-                    # Add some noise to simulate market movements
-                    noise = np.random.uniform(-0.0005, 0.0005)
-                    return base_price * (1 + noise)
+                    # If no historical data is available, return None
+                    return None
         except Exception as e:
             self.log_event(f"⚠️ Error getting historical price for {symbol}: {e}")
             return None
