@@ -150,7 +150,10 @@ class FullDayTradingSimulation:
                         'CHFJPY-ECN': 157.20, 'AUDNZD-ECN': 1.0750, 'EURGBP-ECN': 0.8590,
                         'GBPCAD-ECN': 1.7180, 'XAUUSD-ECN': 1850.00, 'GBPAUD-ECN': 1.8820
                     }
-                    return base_prices.get(symbol, 1.0850)
+                    base_price = base_prices.get(symbol, 1.0850)
+                    # Add some noise to simulate market movements
+                    noise = np.random.uniform(-0.0005, 0.0005)
+                    return base_price * (1 + noise)
         except Exception as e:
             self.log_event(f"⚠️ Error getting historical price for {symbol}: {e}")
             return None
