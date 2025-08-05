@@ -4,27 +4,65 @@
 
 This project is a sophisticated, multi-agent, LLM-powered forex trading bot. It is designed to trade the forex markets automatically using a unique quantitative trading strategy called the "UFO (Unified Forex Object) methodology." The bot is built with Python and integrates with the MetaTrader 5 trading platform.
 
-The system is designed to be robust, with multiple layers of risk management and a modular architecture that separates concerns between data collection, analysis, decision-making, and trade execution.
+The system is designed to be robust, with multiple layers of risk management and a modular architecture that separates concerns between data collection, analysis, decision-making, and trade execution. It also includes a comprehensive simulation framework for backtesting and debugging.
 
 ## 2. Architecture
 
 The project is well-structured and follows a modular design pattern. The main components are:
 
-*   **`main.py`**: The entry point of the application. It initializes the configuration and starts the `LiveTrader`.
-*   **`LiveTrader` (`src/live_trader.py`)**: The central orchestrator of the application. It runs the main trading loop, coordinates the agents, and manages the overall workflow.
-*   **Configuration (`config/config.ini`)**: A comprehensive configuration file that holds all the necessary settings, including API keys, trading parameters, and risk management thresholds.
-*   **Agents (`src/agents/`)**: A multi-agent system is used for decision-making. Each agent has a specific role:
-    *   **`DataAnalystAgent`**: Gathers and processes market data, including price data and economic events.
-    *   **`MarketResearcherAgent`**: Uses the UFO data and economic events to generate a market consensus.
-    *   **`TraderAgent`**: Takes the market consensus and generates a specific trade decision.
-    *   **`RiskManagerAgent`**: Assesses the risk of the proposed trade.
-    *   **`FundManagerAgent`**: Gives the final authorization for a trade, using an LLM to make a qualitative judgment.
-*   **LLM Client (`src/llm/llm_client.py`)**: A robust client for interacting with a Large Language Model (LLM) via the OpenRouter API. It includes features like error handling, retries, and fallback responses.
-*   **Data Collectors (`src/data_collector.py`)**: A set of classes responsible for fetching data from various sources:
+### 2.1. Root Directory Files
+
+*   **`main.py`**: The main entry point of the application. It loads the configuration, initializes the `LiveTrader`, and starts the live trading loop.
+*   **`full_day_simulation.py`**: A comprehensive simulation framework for backtesting the entire trading bot over a full day of trading. It initializes all the components of the bot and runs a realistic simulation on historical data.
+*   **`debug_ufo_times.py`**: A debugging script that is used to test the time-sensitive logic of the `SimulationUFOTradingEngine`.
+
+### 2.2. `src` Directory
+
+This directory contains the source code for the trading bot.
+
+*   **`live_trader.py`**: The central orchestrator of the application. It runs the main trading loop, coordinates the agents, and manages the overall workflow.
+*   **`data_collector.py`**: Contains the classes for collecting data from various sources.
     *   **`MT5DataCollector`**: Connects to MetaTrader 5 to get historical and live market data.
-    *   **`EconomicCalendarCollector`**: Fetches economic calendar data from an external source, with a robust weekly caching mechanism.
-*   **Trade Executor (`src/trade_executor.py`)**: Handles the execution of trades with MetaTrader 5. It is specifically designed to work with the UFO methodology.
-*   **UFO Engine (`src/ufo_trading_engine.py` and `src/ufo_calculator.py`)**: The core of the trading strategy. It includes the logic for calculating the UFO data and the rules for applying it to trading decisions.
+    *   **`FinnhubDataCollector`**: Fetches economic calendar data from Finnhub. **(Note: This is likely deprecated, as the economic calendar API from Finnhub has changed.)**
+    *   **`EconomicCalendarCollector`**: Fetches economic calendar data from `nfs.faireconomy.media` and has a robust weekly caching mechanism.
+*   **`trade_executor.py`**: Handles the execution of trades with MetaTrader 5. It is specifically designed to work with the UFO methodology.
+*   **`ufo_calculator.py`**: Contains the logic for calculating the UFO data, which is the core of the trading strategy.
+*   **`ufo_trading_engine.py`**: Contains the rules and logic for applying the UFO data to trading decisions.
+*   **`simulation_ufo_engine.py`**: A subclass of `UFOTradingEngine` that is specifically designed for simulation and backtesting.
+*   **`portfolio_manager.py`**: A utility for interacting with the MetaTrader 5 account and managing the portfolio.
+*   **`dynamic_reinforcement_engine.py`**: An event-driven engine that provides an alternative to the fixed-cycle reinforcement logic in the main `LiveTrader` loop.
+*   **`communication.py`**: A simple message bus for inter-agent communication.
+*   **`mock_metatrader5.py`**: A mock implementation of the MetaTrader 5 API for testing purposes.
+
+### 2.3. `src/agents` Directory
+
+This directory contains the agents that make up the decision-making core of the trading bot.
+
+*   **`base_agent.py`**: A simple abstract base class that defines the common interface for all agents.
+*   **`data_analyst_agent.py`**: Collects all the data that the trading bot needs, including price data from MT5 and economic events.
+*   **`market_researcher_agent.py`**: Analyzes the market and generates a trading plan using a two-step LLM-based approach.
+*   **`trader_agent.py`**: Makes the final trading decision based on the research consensus and the current state of the portfolio. It is "diversification-aware" and uses an LLM to balance competing objectives.
+*   **`risk_manager_agent.py`**: Assesses the risk of the trading plan and the overall portfolio. It has both a qualitative (LLM-based) and a quantitative component, including a sophisticated predictive risk modeling feature.
+*   **`fund_manager_agent.py`**: Acts as a gatekeeper, giving the final "approve" or "reject" decision for a trade. It uses an LLM with a carefully engineered prompt to make its decision.
+
+### 2.4. `src/llm` Directory
+
+This directory contains the code for interacting with the Large Language Model (LLM).
+
+*   **`llm_client.py`**: A robust and resilient client for interacting with the LLM via the OpenRouter API. It includes features like error handling, retries, exponential backoff, JSON validation, and a fallback response.
+
+### 2.5. `config` Directory
+
+This directory contains the configuration files for the application.
+
+*   **`config.ini`**: The central point of configuration for the entire application. It is well-structured and divided into logical sections, including `[mt5]`, `[finnhub]`, `[openrouter]`, `[fmp]`, and `[trading]`.
+
+### 2.6. `cache` Directory
+
+This directory contains cached data.
+
+*   **`economic_calendar_cache.json`**: A cached copy of the economic calendar data for the current week.
+*   **`economic_calendar_metadata.json`**: Metadata about the cached economic calendar data, which is used to manage the cache.
 
 ## 3. UFO Methodology
 
@@ -41,7 +79,12 @@ The key principles of the UFO methodology are:
 
 ## 4. LLM Integration
 
-The project uses a Large Language Model (LLM) to add a layer of qualitative analysis to the quantitative UFO methodology. The LLM is used in the `FundManagerAgent` to give the final authorization for a trade. The agent's prompt is designed to give the LLM a specific persona ("AGGRESSIVE Fund Manager") and a set of clear approval criteria.
+The project uses a Large Language Model (LLM) to add a layer of qualitative analysis to the quantitative UFO methodology. The LLM is used in multiple agents to perform complex tasks, such as:
+
+*   **`MarketResearcherAgent`**: Generating a market analysis and a trading plan.
+*   **`TraderAgent`**: Making a final trading decision that balances the research consensus with diversification needs.
+*   **`RiskManagerAgent`**: Performing a qualitative risk assessment.
+*   **`FundManagerAgent`**: Giving the final authorization for a trade.
 
 This is an innovative approach that combines the strengths of both quantitative analysis and human-like reasoning.
 
@@ -53,17 +96,19 @@ The project has a multi-layered approach to risk management:
 *   **Session Management**: The bot only trades during specific trading sessions and closes all positions at the end of the day and before the weekend.
 *   **Intelligent Diversification**: The system aims to maintain a diversified portfolio of trades to spread risk.
 *   **Position Sizing**: The system scales position sizes based on the market's uncertainty level.
+*   **Predictive Risk Modeling**: The `RiskManagerAgent` has a sophisticated feature that uses historical UFO data and the equity curve to predict future risk and issue early warnings.
 
 ## 6. Potential Issues and Improvements
 
 *   **Deprecated Finnhub API**: The `FinnhubDataCollector` is using a deprecated API endpoint. While there is a fallback `EconomicCalendarCollector`, the deprecated code should be removed or updated.
 *   **Complexity**: The UFO methodology is complex, with a large number of parameters. This could make the system difficult to debug, optimize, and maintain.
-*   **Backtesting**: The project lacks an obvious backtesting framework. This makes it difficult to evaluate the performance of the UFO strategy under different market conditions. Adding a backtesting feature would be a significant improvement.
+*   **Backtesting Framework**: The `full_day_simulation.py` script is a good start, but a more comprehensive backtesting framework with features like parameter optimization and performance reporting would be a valuable addition.
 *   **Code Duplication**: There is some code duplication, for example, in the parsing of the configuration file. This could be refactored into a shared utility function.
 *   **Documentation**: While the code is relatively well-commented, a more detailed documentation of the UFO methodology and the overall system architecture would be beneficial.
+*   **FMP API Key**: The `config.ini` file contains an API key for Financial Modeling Prep, but it's not clear where this is used in the code. This should be investigated and either used or removed.
 
 ## 7. Conclusion
 
-The UFO Forex Trading Bot is a well-engineered and innovative project. It combines a unique quantitative trading strategy with the power of LLMs to create a sophisticated automated trading system. The project is well-structured and has a strong focus on risk management.
+The UFO Forex Trading Bot is a well-engineered and innovative project. It combines a unique quantitative trading strategy with the power of LLMs to create a sophisticated automated trading system. The project is well-structured, has a strong focus on risk management, and includes a comprehensive simulation framework for backtesting.
 
 While there are some areas for improvement, the project represents a solid foundation for a powerful and profitable trading bot.
