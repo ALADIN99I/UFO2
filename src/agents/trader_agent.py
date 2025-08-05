@@ -13,18 +13,42 @@ class TraderAgent(Agent):
 
         # Define a mapping of non-standard pairs to their standard equivalents
         pair_map = {
-            "USDEUR": "EURUSD",
-            "USDGBP": "GBPUSD",
-            "JPYUSD": "USDJPY",
-            "CADUSD": "USDCAD",
-            "CHFUSD": "USDCHF",
+            "USDEUR": "EURUSD", "EURUSD": "EURUSD",
+            "USDGBP": "GBPUSD", "GBPUSD": "GBPUSD",
+            "JPYUSD": "USDJPY", "USDJPY": "USDJPY",
+            "CADUSD": "USDCAD", "USDCAD": "USDCAD",
+            "CHFUSD": "USDCHF", "USDCHF": "USDCHF",
             "AUDUSD": "AUDUSD",
             "NZDUSD": "NZDUSD",
-            "GBPEUR": "EURGBP",
-            # Add other common non-standard pairs here
+            "GBPEUR": "EURGBP", "EURGBP": "EURGBP",
+            "AUDNZD": "AUDNZD",
+            "AUDCAD": "AUDCAD",
+            "CHFJPY": "CHFJPY",
+            "EURNZD": "EURNZD",
+            "GBPJPY": "GBPJPY",
+            "NZDCAD": "NZDCAD",
+            "USDNZD": "NZDUSD",
+            "USDGBP": "GBPUSD",
+            "USDAUD": "AUDUSD",
+            "CADAUD": "AUDCAD",
+            "CHFNZD": "NZDCHF",
         }
 
-        return pair_map.get(pair, pair) + "-ECN"
+        normalized_pair = pair_map.get(pair, pair)
+
+        # List of valid currency pairs (from your config)
+        valid_pairs = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD", "USDCHF", "EURAUD", "EURCAD", "EURCHF", "EURGBP", "EURJPY", "EURNZD", "GBPAUD", "GBPCAD", "GBPCHF", "GBPJPY", "GBPNZD", "AUDCAD", "AUDCHF", "AUDJPY", "AUDNZD", "CADCHF", "CADJPY", "CHFJPY", "NZDCAD", "NZDCHF", "NZDJPY"]
+
+        if normalized_pair in valid_pairs:
+            return normalized_pair + "-ECN"
+        else:
+            # If the pair is not in the valid list, try reversing it
+            reversed_pair = normalized_pair[3:] + normalized_pair[:3]
+            if reversed_pair in valid_pairs:
+                return reversed_pair + "-ECN"
+            else:
+                # If neither the original nor the reversed pair is valid, return the original (it will fail later)
+                return pair + "-ECN"
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
