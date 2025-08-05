@@ -769,12 +769,20 @@ class FullDayTradingSimulation:
                         actions_list = parsed_data['trade_plan']
                     elif 'trades' in parsed_data:
                         for trade in parsed_data['trades']:
-                            actions_list.append({
-                                'action': 'new_trade',
-                                'currency_pair': trade['currency_pair'],
-                                'direction': trade['direction'].upper(),
-                                'volume': 0.1
-                            })
+                            action_type = trade.get('action', 'new_trade')
+                            if action_type == 'new_trade':
+                                actions_list.append({
+                                    'action': 'new_trade',
+                                    'currency_pair': trade['currency_pair'],
+                                    'direction': trade.get('direction', 'BUY').upper(),
+                                    'volume': trade.get('lot_size', 0.1)
+                                })
+                            elif action_type == 'close_trade':
+                                actions_list.append({
+                                    'action': 'close_trade',
+                                    'trade_id': trade.get('trade_id'),
+                                    'currency_pair': trade.get('currency_pair')
+                                })
                     
                     # Execute each trade
                     for action in actions_list:
@@ -790,6 +798,17 @@ class FullDayTradingSimulation:
                                 full_symbol = base_symbol + suffix
                             else:
                                 full_symbol = base_symbol
+                        elif action.get('action') == 'close_trade':
+                            trade_id = action.get('trade_id')
+                            if trade_id:
+                                position_to_close = next((p for p in self.open_positions if p.get('ticket') == trade_id), None)
+                                if position_to_close:
+                                    self.open_positions.remove(position_to_close)
+                                    self.realized_pnl += position_to_close.get('pnl', 0.0)
+                                    self.closed_trades.append(position_to_close)
+                                    self.log_event(f"🔹 Trade closed by LLM: {position_to_close['symbol']} P&L: ${position_to_close.get('pnl', 0.0):.2f}")
+                                    executed_count += 1
+                            continue # Continue to next action
                             
                             # Generate realistic entry price based on symbol
                             base_prices = {
