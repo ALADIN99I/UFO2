@@ -9,52 +9,40 @@ class TraderAgent(Agent):
 
     def _normalize_currency_pair(self, pair):
         """Normalizes a currency pair to the standard notation."""
-        pair = pair.upper().replace("/", "").replace("-ECN", "")
+        # Remove any suffixes and delimiters
+        clean_pair = pair.upper().replace("/", "").replace("-ECN", "")
 
         # Define a mapping of non-standard pairs to their standard equivalents
         pair_map = {
-            "USDEUR": "EURUSD", "EURUSD": "EURUSD",
-            "USDGBP": "GBPUSD", "GBPUSD": "GBPUSD",
-            "JPYUSD": "USDJPY", "USDJPY": "USDJPY",
-            "CADUSD": "USDCAD", "USDCAD": "USDCAD",
-            "CHFUSD": "USDCHF", "USDCHF": "USDCHF",
-            "AUDUSD": "AUDUSD",
-            "NZDUSD": "NZDUSD",
-            "GBPEUR": "EURGBP", "EURGBP": "EURGBP",
-            "AUDNZD": "AUDNZD",
-            "AUDCAD": "AUDCAD",
-            "CHFJPY": "CHFJPY",
-            "EURNZD": "EURNZD",
-            "GBPJPY": "GBPJPY",
-            "NZDCAD": "NZDCAD",
-            "USDNZD": "NZDUSD",
+            "USDEUR": "EURUSD",
             "USDGBP": "GBPUSD",
+            "JPYUSD": "USDJPY",
+            "CADUSD": "USDCAD",
+            "CHFUSD": "USDCHF",
+            "GBPEUR": "EURGBP",
+            "USDNZD": "NZDUSD",
             "USDAUD": "AUDUSD",
             "CADAUD": "AUDCAD",
             "CHFNZD": "NZDCHF",
         }
 
-        normalized_pair = pair_map.get(pair, pair)
+        # Normalize the pair
+        normalized_pair = pair_map.get(clean_pair, clean_pair)
 
-        # List of valid currency pairs (from your config)
+        # Ensure the pair is in the list of valid pairs
         valid_pairs = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD", "USDCHF", "EURAUD", "EURCAD", "EURCHF", "EURGBP", "EURJPY", "EURNZD", "GBPAUD", "GBPCAD", "GBPCHF", "GBPJPY", "GBPNZD", "AUDCAD", "AUDCHF", "AUDJPY", "AUDNZD", "CADCHF", "CADJPY", "CHFJPY", "NZDCAD", "NZDCHF", "NZDJPY"]
-
-        if normalized_pair in valid_pairs:
-            if not normalized_pair.endswith("-ECN"):
-                return normalized_pair + "-ECN"
-            return normalized_pair
-        else:
+        if normalized_pair not in valid_pairs:
             # If the pair is not in the valid list, try reversing it
             reversed_pair = normalized_pair[3:] + normalized_pair[:3]
             if reversed_pair in valid_pairs:
-                if not reversed_pair.endswith("-ECN"):
-                    return reversed_pair + "-ECN"
-                return reversed_pair
+                normalized_pair = reversed_pair
             else:
-                # If neither the original nor the reversed pair is valid, return the original (it will fail later)
-                if not pair.endswith("-ECN"):
-                    return pair + "-ECN"
-                return pair
+                # If neither the original nor the reversed pair is valid, return the original pair with suffix
+                return pair + "-ECN" if not pair.endswith("-ECN") else pair
+
+
+        # Add the suffix
+        return normalized_pair + "-ECN"
 
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
