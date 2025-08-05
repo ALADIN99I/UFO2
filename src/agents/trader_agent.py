@@ -60,7 +60,13 @@ class TraderAgent(Agent):
             "IMPORTANT: NO individual stop losses or take profits - UFO methodology uses PORTFOLIO-LEVEL risk management only!\n\n"
             f"Account Balance: ${balance} - Risk tolerance: 0.8-1.2% per trade, max 4.5% total portfolio risk.\n\n"
             f"Research Consensus:\n{research_consensus}\n\n"
-            f"Current Open Positions ({position_count} total):\n{open_positions_str}"
+            f"Current Open Positions ({position_count} total):\n{open_positions_str}\n\n"
+            "YOUR TASK:\n"
+            "1.  Analyze the `Current Open Positions`. \n"
+            "2.  If the number of open positions is at or near the `Maximum positions` limit, you should prioritize closing or adjusting existing positions over opening new ones.\n"
+            "3.  Only suggest `new_trade` actions if there is sufficient capacity in the portfolio.\n"
+            "4.  If you suggest new trades, ensure they are aligned with the `Research Consensus` and do not excessively increase the portfolio's risk.\n"
+            "5.  Provide a clear rationale for each action in your response."
         )
 
         trade_decision_str = self.llm_client.generate_response(prompt)
