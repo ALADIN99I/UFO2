@@ -103,9 +103,9 @@ The project has a multi-layered approach to risk management:
 *   **Deprecated Finnhub API**: The `FinnhubDataCollector` is using a deprecated API endpoint. While there is a fallback `EconomicCalendarCollector`, the deprecated code should be removed or updated.
 *   **Complexity**: The UFO methodology is complex, with a large number of parameters. This could make the system difficult to debug, optimize, and maintain.
 *   **Backtesting Framework**: The `full_day_simulation.py` script is a good start, but a more comprehensive backtesting framework with features like parameter optimization and performance reporting would be a valuable addition.
-*   **Code Duplication**: There is some code duplication, for example, in the parsing of the configuration file. This could be refactored into a shared utility function.
+*   **Code Duplication**: There is some code duplication that could be refactored. For example, the `parse_config_value` helper function is defined in both `src/live_trader.py` and `src/agents/risk_manager_agent.py`. This could be moved to a shared utility module.
+*   **Unused FMP API Key**: The `config.ini` file contains an API key for Financial Modeling Prep (`[fmp]`). A search of the codebase confirms that this key is not used anywhere in the project. It should be removed to avoid confusion and potential security risks.
 *   **Documentation**: While the code is relatively well-commented, a more detailed documentation of the UFO methodology and the overall system architecture would be beneficial.
-*   **FMP API Key**: The `config.ini` file contains an API key for Financial Modeling Prep, but it's not clear where this is used in the code. This should be investigated and either used or removed.
 
 ## 7. Conclusion
 
