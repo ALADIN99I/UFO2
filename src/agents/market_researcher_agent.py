@@ -46,12 +46,12 @@ class MarketResearcherAgent(Agent):
         analysis_prompt = (
             "You are a senior Forex market analyst. Based on the following UFO data across multiple timeframes, "
             "provide a comprehensive market analysis. Assess the consistency of currency strength and weakness "
-            "across the timeframes to determine high-probability trading opportunities. "
-            "IMPORTANT: Do NOT consider economic calendar events or market sentiment in your analysis. "
-            "Focus ONLY on UFO currency strength data and technical patterns shown in the data. "
-            "The portfolio should be constructed by pairing strong currencies against weak currencies based purely on UFO strength calculations.\n\n"
+            "across the timeframes to determine high-probability trading opportunities. Identify the primary market "
+            "sentiment and suggest a hedged portfolio of trades that aligns with this sentiment. "
+            "The portfolio should be constructed by pairing strong currencies against weak currencies.\n\n"
             f"UFO Data:\n{ufo_data_str}\n\n"
-            "NOTE: Ignore any economic events - base analysis purely on UFO mathematical strength relationships."
+            f"Upcoming Economic Events:\n{economic_events_str}\n\n"
+            "Your analysis should conclude with a clear recommendation for a portfolio of trades."
         )
 
         analysis = self.llm_client.generate_response(analysis_prompt)
