@@ -132,14 +132,17 @@ class FullDayTradingSimulation:
             rates = mt5.copy_rates_from(symbol, mt5.TIMEFRAME_M5, target_timestamp, 1)
             
             if rates is not None and len(rates) > 0:
+                self.log_event(f"✅ Using REAL data from MT5 for {symbol}")
                 # Return the close price
                 return float(rates[0]['close'])
             else:
                 # Fallback: get the most recent data if exact time not available
                 rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M5, 0, 1)
                 if rates is not None and len(rates) > 0:
+                    self.log_event(f"✅ Using REAL data from MT5 for {symbol} (fallback)")
                     return float(rates[0]['close'])
                 else:
+                    self.log_event(f"⚠️ Using FALLBACK data for {symbol}")
                     # If no historical data is available, return None
                     return None
         except Exception as e:
