@@ -6,6 +6,25 @@ class TraderAgent(Agent):
         super().__init__(name, llm_client)
         self.portfolio_manager = PortfolioManager(mt5_connection)
 
+    def _normalize_currency_pair(self, pair):
+        """Normalizes a currency pair to the standard notation."""
+        pair = pair.upper().replace("/", "").replace("-ECN", "")
+
+        # Define a mapping of non-standard pairs to their standard equivalents
+        pair_map = {
+            "USDEUR": "EURUSD",
+            "USDGBP": "GBPUSD",
+            "JPYUSD": "USDJPY",
+            "CADUSD": "USDCAD",
+            "CHFUSD": "USDCHF",
+            "AUDUSD": "AUDUSD",
+            "NZDUSD": "NZDUSD",
+            "GBPEUR": "EURGBP",
+            # Add other common non-standard pairs here
+        }
+
+        return pair_map.get(pair, pair) + "-ECN"
+
     def execute(self, research_consensus, open_positions, diversification_config=None):
         """
         Makes a trading decision based on the research consensus and open positions using the LLM.
@@ -81,4 +100,14 @@ class TraderAgent(Agent):
             print("Warning: TraderAgent LLM did not return a valid trade decision string.")
 
         print(f"LLM Trade Decision:\n{trade_decision_str}")
-        return trade_decision_str
+
+        # Normalize the currency pairs in the trade decision
+        try:
+            trade_decision_json = json.loads(trade_decision_str)
+            if "trades" in trade_decision_json:
+                for trade in trade_decision_json["trades"]:
+                    if "currency_pair" in trade:
+                        trade["currency_pair"] = self._normalize_currency_pair(trade["currency_pair"])
+            return json.dumps(trade_decision_json)
+        except json.JSONDecodeError:
+            return trade_decision_str # Return original string if not valid JSON
