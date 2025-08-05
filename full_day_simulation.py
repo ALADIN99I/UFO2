@@ -783,9 +783,13 @@ class FullDayTradingSimulation:
                             direction = action.get('direction', '').upper()
                             volume = action.get('volume') or action.get('lot_size', 0.1)
                             
-                            # Add symbol suffix
+                            # Add symbol suffix if it doesn't exist
                             base_symbol = symbol.replace("/", "")
-                            full_symbol = base_symbol + self.config['mt5'].get('symbol_suffix', '')
+                            suffix = self.config['mt5'].get('symbol_suffix', '')
+                            if not base_symbol.endswith(suffix):
+                                full_symbol = base_symbol + suffix
+                            else:
+                                full_symbol = base_symbol
                             
                             # Generate realistic entry price based on symbol
                             base_prices = {
