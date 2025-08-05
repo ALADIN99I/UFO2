@@ -29,7 +29,7 @@ class UfoCalculator:
 
     def generate_ufo_data(self, incremental_sums_dict):
         """
-        Generates the UFO market performance data for multiple timeframes.
+        Generates the UFO market performance data for multiple timeframes using a rolling window.
         """
         ufo_data_dict = {}
         for timeframe, incremental_sums in incremental_sums_dict.items():
@@ -43,7 +43,9 @@ class UfoCalculator:
                             currency_performance += incremental_sums[cross]
                         else:
                             currency_performance -= incremental_sums[cross]
-                ufo_data[currency] = currency_performance
+                # Use a rolling window to calculate the strength
+                ufo_data[currency] = currency_performance.rolling(window=20).mean()
+            ufo_data.fillna(0, inplace=True)
             ufo_data_dict[timeframe] = ufo_data
         return ufo_data_dict
     
